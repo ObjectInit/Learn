@@ -72,6 +72,7 @@
     <Compile Include="Aop\DynamicProxy\PIAB\LogHandlerAttribute.cs" />
     <Compile Include="Aop\DynamicProxy\PIAB\UnitTest1.cs" />
     <Compile Include="Aop\DynamicProxy\PIAB\User.cs" />
+    <Compile Include="TypeInit\UnitTest1.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -80,6 +81,8 @@
     <Content Include="Aop\ILMix\说明.txt" />
     <Content Include="Aop\Static\说明.txt" />
     <Content Include="Aop\说明.txt" />
+    <Content Include="DesignPattern\说明.txt" />
+    <Content Include="TypeInit\说明.txt" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
