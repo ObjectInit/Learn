@@ -1,0 +1,9 @@
+﻿Dynamic 基元类型
+
+转载:Clr Via C#
+
+Il解释
+Dynamic 就是 Object 类型  运行时会生成相关代码进行解析
+
+示例讲解:
+扩展自定义的动态类型
