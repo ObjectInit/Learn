@@ -17,7 +17,7 @@ using Microsoft.Practices.Unity.InterceptionExtension;
 namespace Learn.Aop.DynamicProxy.PIAB
 {
     /// <summary>
-    ///     #region 1、定义特性方便使用
+    ///定义特性方便使用
     /// </summary>
     public class LogHandlerAttribute : HandlerAttribute
     {
@@ -25,7 +25,7 @@ namespace Learn.Aop.DynamicProxy.PIAB
         public int Order { get; set; }
         public override ICallHandler CreateHandler(IUnityContainer container)
         {
-            throw new NotImplementedException();
+            return new LogHandler() { Order = this.Order, LogInfo = this.LogInfo };
         }
     }
 
@@ -87,13 +87,13 @@ namespace Learn.Aop.DynamicProxy.PIAB
         [LogHandler(LogInfo = "Test的日志为aaaaa")]
         public void Test(User oUser)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Test方法执行了");
         }
 
         [LogHandler(LogInfo = "Test2的日志为bbbbb")]
         public void Test2(User oUser, User oUser2)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Test2方法执行了");
         }
     }
 

@@ -2,6 +2,8 @@
 
 关于C# AOP 
 
+解释:AOP（Aspect-Oriented Programming，面向切面的编程）
+
 大致分为2类
 {
 	1.静态拦截
