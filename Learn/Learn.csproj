@@ -72,6 +72,11 @@
     <Compile Include="Aop\DynamicProxy\PIAB\LogHandlerAttribute.cs" />
     <Compile Include="Aop\DynamicProxy\PIAB\UnitTest1.cs" />
     <Compile Include="Aop\DynamicProxy\PIAB\User.cs" />
+    <Compile Include="Aop\Static\IOrderProcessor.cs" />
+    <Compile Include="Aop\Static\Order.cs" />
+    <Compile Include="Aop\Static\OrderProcessor.cs" />
+    <Compile Include="Aop\Static\OrderProcessorDecorator.cs" />
+    <Compile Include="Aop\Static\UnitTest1.cs" />
     <Compile Include="TypeInit\UnitTest1.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
