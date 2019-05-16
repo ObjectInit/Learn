@@ -1,0 +1,9 @@
+﻿转载  https://www.cnblogs.com/landeanfen/p/4782370.html
+
+关于C# AOP 
+
+大致分为2类
+{
+	1.静态拦截
+	2.动态代理、IL编织
+}
