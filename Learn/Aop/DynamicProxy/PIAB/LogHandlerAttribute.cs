@@ -42,7 +42,7 @@ namespace Learn.Aop.DynamicProxy.PIAB
         {
             Console.WriteLine("LogInfo内容" + LogInfo);
             var arrInputs = input.Inputs;
-            if (arrInputs.Count > 0)
+            if (arrInputs.Count > 0) 
             {
                 var oUserTest1 = arrInputs[0] as User;
             }
