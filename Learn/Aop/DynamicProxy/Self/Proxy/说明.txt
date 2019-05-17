@@ -1,0 +1,3 @@
+﻿转载:https://www.cnblogs.com/zuowj/p/7501896.html
+
+对于代理的理解 和 Aop

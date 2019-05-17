@@ -29,5 +29,14 @@ namespace Learn.Aop.DynamicProxy.Castle
         {
             Console.WriteLine("用户登录。Name:{0},PassWord:{1}", user.Name, user.Password);
         }
+
+        /// <summary>
+        /// 实现必须是虚拟的
+        /// </summary>
+        /// <param name="user"></param>
+        public virtual void RegUser2(User user)
+        {
+            Console.WriteLine("用户登录。Name:{0},PassWord:{1}", user.Name, user.Password);
+        }
     }
 }

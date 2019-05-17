@@ -14,7 +14,7 @@ namespace Learn.Aop.DynamicProxy.Castle
             ProxyGenerator generator = new ProxyGenerator(); //创建一个代理生产器
             MyInterceptor interceptor = new MyInterceptor(); //创建一个拦截器
             var userprocessor = generator.CreateClassProxy<UserProcessor>(interceptor);//创建一个基于拦截器的代理对象
-            userprocessor.RegUser(user);
+            userprocessor.RegUser2(user);
         }
     }
 }

@@ -104,6 +104,7 @@
     <Content Include="Aop\DynamicProxy\PIAB\说明.txt" />
     <Content Include="Aop\DynamicProxy\RealProxy\说明.txt" />
     <Content Include="Aop\DynamicProxy\Self\Decorator\说明.txt" />
+    <Content Include="Aop\DynamicProxy\Self\Proxy\说明.txt" />
     <Content Include="Aop\DynamicProxy\Self\说明.txt" />
     <Content Include="Aop\ILMix\说明.txt" />
     <Content Include="Aop\Static\说明.txt" />
