@@ -1,5 +1,5 @@
 ﻿转载  https://www.cnblogs.com/landeanfen/p/4782370.html
-
+理解aop  http://www.cnblogs.com/DjlNet/p/7603654.html
 关于C# AOP 
 
 解释:AOP（Aspect-Oriented Programming，面向切面的编程）
