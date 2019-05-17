@@ -1,1 +1,5 @@
 ﻿静态拦截
+
+此方法为装饰器模式
+
+框架学习与探究之AOP : http://www.cnblogs.com/DjlNet/p/7603654.html

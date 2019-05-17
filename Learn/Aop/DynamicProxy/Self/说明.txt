@@ -1,0 +1,4 @@
+﻿转载:http://www.cnblogs.com/zh7791/p/7923085.html
+
+自定义实现
+包含装饰器模式,net remoting/DynamicProxy 实现动态代理
