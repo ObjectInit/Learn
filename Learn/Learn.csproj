@@ -93,6 +93,7 @@
     <Compile Include="Aop\Static\OrderProcessor.cs" />
     <Compile Include="Aop\Static\OrderProcessorDecorator.cs" />
     <Compile Include="Aop\Static\UnitTest1.cs" />
+    <Compile Include="DesignPattern\SimpleFactory.cs" />
     <Compile Include="DynamicType\StaticMemberDynamicWrapper.cs" />
     <Compile Include="DynamicType\UnitTest1.cs" />
     <Compile Include="TypeInit\UnitTest1.cs" />
