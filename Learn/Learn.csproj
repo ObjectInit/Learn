@@ -94,8 +94,11 @@
     <Compile Include="Aop\Static\OrderProcessorDecorator.cs" />
     <Compile Include="Aop\Static\UnitTest1.cs" />
     <Compile Include="DesignPattern\SimpleFactory.cs" />
+    <Compile Include="DesignPattern\UnitTest1.cs" />
     <Compile Include="DynamicType\StaticMemberDynamicWrapper.cs" />
     <Compile Include="DynamicType\UnitTest1.cs" />
+    <Compile Include="Event\UnitTest1.cs" />
+    <Compile Include="MicrosoftFrameWork\InterlockedTest.cs" />
     <Compile Include="TypeInit\UnitTest1.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -112,6 +115,8 @@
     <Content Include="Aop\说明.txt" />
     <Content Include="DesignPattern\说明.txt" />
     <Content Include="DynamicType\说明.txt" />
+    <Content Include="Event\说明.txt" />
+    <Content Include="MicrosoftFrameWork\说明.txt" />
     <Content Include="TypeInit\说明.txt" />
     <None Include="packages.config" />
   </ItemGroup>

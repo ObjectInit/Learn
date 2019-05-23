@@ -3,3 +3,5 @@
 转载:http://www.cnblogs.com/zhili/p/DesignPatternSummery.html
 
 C# 设计模式总结
+
+1. SimpleFactory 简单工厂

@@ -18,5 +18,10 @@ namespace Learn.DesignPattern
 {
     public class SimpleFactory
     {
+        public string Name { get; set; }
+        public void Say()
+        {
+           
+        }
     }
 }
