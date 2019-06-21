@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn", "Learn\Learn.csproj", "{F91A8700-CE09-40FB-83B4-2B725361DCA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTest", "LearnTest\LearnTest.csproj", "{A76DB2F4-D8F0-471C-84C1-C627958BAB01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,12 +17,16 @@ Global
 		{F91A8700-CE09-40FB-83B4-2B725361DCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F91A8700-CE09-40FB-83B4-2B725361DCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F91A8700-CE09-40FB-83B4-2B725361DCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76DB2F4-D8F0-471C-84C1-C627958BAB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76DB2F4-D8F0-471C-84C1-C627958BAB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76DB2F4-D8F0-471C-84C1-C627958BAB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76DB2F4-D8F0-471C-84C1-C627958BAB01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
 		SolutionGuid = {786CB82B-6A9C-4326-8788-6F6AA0A082D8}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
