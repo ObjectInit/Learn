@@ -1,0 +1,12 @@
+﻿1.owin使用
+安装 这几个nuget包 
+Owin
+Microsoft.Owin
+Microsoft.Owin.Hosting
+Microsoft.Owin.Host.HttpListener
+
+
+转载:https://beginor.github.io/2014/08/28/owin-first-look.html
+
+
+转载:https://www.jianshu.com/p/96a025c28db7

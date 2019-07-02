@@ -55,15 +55,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IMain.cs" />
+    <Compile Include="MicrosoftFrameWork\InterfaceOfIDictionary\Program.cs" />
+    <Compile Include="MicrosoftFrameWork\KnowForeach\Program.cs" />
+    <Compile Include="MicrosoftFrameWork\TypeOfDictionary\Program.cs" />
     <Compile Include="Owin\Program.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Owin\Startup.cs" />
+    <Compile Include="Reflex\Example.cs" />
+    <Compile Include="Reflex\Program.cs" />
+    <Compile Include="Temp\Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="MicrosoftFrameWork\TypeOfDictionary\说明.txt" />
+    <Content Include="Owin\说明.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
