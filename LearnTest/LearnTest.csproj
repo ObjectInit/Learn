@@ -71,6 +71,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MicrosoftFrameWork\KnowForeach\说明.txt" />
     <Content Include="MicrosoftFrameWork\TypeOfDictionary\说明.txt" />
     <Content Include="Owin\说明.txt" />
   </ItemGroup>
