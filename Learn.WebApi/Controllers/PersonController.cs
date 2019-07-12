@@ -16,13 +16,17 @@ namespace Learn.WebApi.Controllers
         
 
         [HttpPost]
-        public HttpResponseMessage CheckUserName([FromBody]string userName)
+        public HttpResponseMessage CheckUserName([FromBody]Person userName)
         {
             //string content = Request.Content.ReadAsAsync<string>().Result;
                 return tool.MsgFormat(ResponseCode.成功, "可注册", "0 " + userName);
 
         }
 
+        public class Person
+        {
+            public string UserName { get; set; }
+        }
         public class ApiTools
         {
             private string msgModel = "{{\"code\":{0},\"message\":\"{1}\",\"result\":{2}}}";
