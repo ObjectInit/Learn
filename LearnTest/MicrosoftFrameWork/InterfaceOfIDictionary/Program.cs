@@ -8,13 +8,10 @@
 * 创建时间：2019/7/2 13:43:38 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LearnTest.MicrosoftFrameWork.InterfaceOfIDictionary
+using System;
+
+namespace Learn.Console.MicrosoftFrameWork.InterfaceOfIDictionary
 {
     public class Program:IMain
     {

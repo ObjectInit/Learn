@@ -9,7 +9,7 @@
 * =============================================================*/
 #endregion
 
-namespace Learn.Aop.DynamicProxy.RealProxy
+namespace Learn.UnitTest.Aop.DynamicProxy.RealProxy
 {
     public class User
     {

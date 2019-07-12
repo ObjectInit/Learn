@@ -8,13 +8,8 @@
 * 创建时间：2019/5/16 15:46:01 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.Aop.Static
+namespace Learn.UnitTest.Aop.Static
 {
     /// <summary>
     /// 需要处理的Order类信息

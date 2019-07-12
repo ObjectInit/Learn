@@ -8,13 +8,10 @@
 * 创建时间：2019/5/16 16:46:36 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.Aop.Static
+using System;
+
+namespace Learn.UnitTest.Aop.Static
 {
     /// <summary>
     /// 系统级别的提交模拟

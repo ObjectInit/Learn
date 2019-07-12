@@ -7,14 +7,11 @@
 * 创 建 者：Administrator 
 * 创建时间：2019/5/17 14:39:41 
 * =============================================================*/
-#endregion 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+#endregion
 
-namespace Learn.Aop.DynamicProxy.RealProxy
+using System;
+
+namespace Learn.UnitTest.Aop.DynamicProxy.RealProxy
 {
     public class UserProcessor: MarshalByRefObject,IUserProcessor
     {

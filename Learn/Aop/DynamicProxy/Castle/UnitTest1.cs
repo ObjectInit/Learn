@@ -1,8 +1,7 @@
-﻿using System;
-using Castle.DynamicProxy;
+﻿using Castle.DynamicProxy;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.Aop.DynamicProxy.Castle
+namespace Learn.UnitTest.Aop.DynamicProxy.Castle
 {
     [TestClass]
     public class UnitTest1

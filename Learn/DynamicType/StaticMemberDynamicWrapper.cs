@@ -8,15 +8,13 @@
 * 创建时间：2019/5/16 17:09:44 
 * =============================================================*/
 #endregion
+
 using System;
-using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.DynamicType
+namespace Learn.UnitTest.DynamicType
 {
     /// <summary>
     /// 自定义一个动态类的读取和写入

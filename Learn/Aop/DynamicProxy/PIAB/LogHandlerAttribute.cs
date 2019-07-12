@@ -14,7 +14,7 @@ using Microsoft.Practices.EnterpriseLibrary.PolicyInjection;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.InterceptionExtension;
 
-namespace Learn.Aop.DynamicProxy.PIAB
+namespace Learn.UnitTest.Aop.DynamicProxy.PIAB
 {
     /// <summary>
     ///定义特性方便使用

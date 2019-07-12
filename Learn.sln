@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn", "Learn\Learn.csproj", "{F91A8700-CE09-40FB-83B4-2B725361DCA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.UnitTest", "Learn\Learn.UnitTest.csproj", "{F91A8700-CE09-40FB-83B4-2B725361DCA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTest", "LearnTest\LearnTest.csproj", "{A76DB2F4-D8F0-471C-84C1-C627958BAB01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Console", "LearnTest\Learn.Console.csproj", "{A76DB2F4-D8F0-471C-84C1-C627958BAB01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lear.Mvc", "Lear.Mvc\Lear.Mvc.csproj", "{A27E548C-49C2-40C4-A2A2-1A87D6119A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Asp", "Learn.Asp\Learn.Asp.csproj", "{5A585937-10C4-4109-8A49-751C863A1BB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +25,20 @@ Global
 		{A76DB2F4-D8F0-471C-84C1-C627958BAB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76DB2F4-D8F0-471C-84C1-C627958BAB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76DB2F4-D8F0-471C-84C1-C627958BAB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27E548C-49C2-40C4-A2A2-1A87D6119A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27E548C-49C2-40C4-A2A2-1A87D6119A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27E548C-49C2-40C4-A2A2-1A87D6119A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27E548C-49C2-40C4-A2A2-1A87D6119A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A585937-10C4-4109-8A49-751C863A1BB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A585937-10C4-4109-8A49-751C863A1BB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A585937-10C4-4109-8A49-751C863A1BB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A585937-10C4-4109-8A49-751C863A1BB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {786CB82B-6A9C-4326-8788-6F6AA0A082D8}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
+		SolutionGuid = {786CB82B-6A9C-4326-8788-6F6AA0A082D8}
 	EndGlobalSection
 EndGlobal

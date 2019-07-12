@@ -8,13 +8,8 @@
 * 创建时间：2019/6/20 16:17:40 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LearnTest
+namespace Learn.Console
 {
     public interface IMain
     {

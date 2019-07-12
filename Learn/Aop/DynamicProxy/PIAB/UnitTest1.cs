@@ -3,7 +3,7 @@ using Microsoft.Practices.EnterpriseLibrary.Common.Configuration;
 using Microsoft.Practices.EnterpriseLibrary.PolicyInjection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.Aop.DynamicProxy.PIAB
+namespace Learn.UnitTest.Aop.DynamicProxy.PIAB
 {
     [TestClass]
     public class UnitTest1

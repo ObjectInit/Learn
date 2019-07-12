@@ -1,4 +1,4 @@
-﻿namespace Learn.Aop.DynamicProxy.RealProxy
+﻿namespace Learn.UnitTest.Aop.DynamicProxy.RealProxy
 {
     /// <summary>
     /// 定义一个接口规范

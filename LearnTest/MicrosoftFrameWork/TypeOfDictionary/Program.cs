@@ -8,14 +8,11 @@
 * 创建时间：2019/7/2 11:46:36 
 * =============================================================*/
 #endregion
-using System;
+
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LearnTest.MicrosoftFrameWork.TypeOfDictionary
+namespace Learn.Console.MicrosoftFrameWork.TypeOfDictionary
 {
     public class Program : IMain
     {
@@ -37,7 +34,7 @@ namespace LearnTest.MicrosoftFrameWork.TypeOfDictionary
             Dictionary<string, string>.ValueCollection valueColl = openWith.Values;
             foreach (string s in valueColl)
             {
-                Console.WriteLine("Second Method, Value = {0}", s);
+                System.Console.WriteLine("Second Method, Value = {0}", s);
             }
             //遍历
             IDictionary idic = openWith;

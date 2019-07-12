@@ -8,13 +8,8 @@
 * 创建时间：2019/5/22 9:29:19 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.DesignPattern
+namespace Learn.UnitTest.DesignPattern
 {
     public class SimpleFactory
     {

@@ -8,13 +8,8 @@
 * 创建时间：2019/5/17 11:24:20 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.Aop.DynamicProxy.Castle
+namespace Learn.UnitTest.Aop.DynamicProxy.Castle
 {
     public class User
     {

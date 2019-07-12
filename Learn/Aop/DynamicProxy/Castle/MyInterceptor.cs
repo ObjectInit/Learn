@@ -8,14 +8,11 @@
 * 创建时间：2019/5/17 11:18:52 
 * =============================================================*/
 #endregion
+
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Castle.DynamicProxy;
 
-namespace Learn.Aop.DynamicProxy.Castle
+namespace Learn.UnitTest.Aop.DynamicProxy.Castle
 {
     /// <summary>
     /// 创建一个自定义拦截器

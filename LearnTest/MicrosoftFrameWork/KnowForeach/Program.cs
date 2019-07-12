@@ -9,11 +9,10 @@
 * =============================================================*/
 #endregion
 
-using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace LearnTest.MicrosoftFrameWork.KnowForeach
+namespace Learn.Console.MicrosoftFrameWork.KnowForeach
 {
     public class Program : IMain
     {
@@ -30,7 +29,7 @@ namespace LearnTest.MicrosoftFrameWork.KnowForeach
              
             foreach (var item in p)
             {
-                Console.WriteLine(item);
+                System.Console.WriteLine(item);
             }
             ////foreach循环原理遍历输出
             //Console.WriteLine("=======foreach循环原理遍历输出======");
@@ -41,7 +40,7 @@ namespace LearnTest.MicrosoftFrameWork.KnowForeach
             //    Console.WriteLine(str);
             //}
             #endregion 
-            Console.ReadKey();
+            System.Console.ReadKey();
  
         }
     }

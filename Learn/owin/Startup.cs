@@ -8,15 +8,12 @@
 * 创建时间：2019/6/20 14:02:18 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+
 using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-namespace Learn.owin
+namespace Learn.UnitTest.owin
 {
     public class Startup
     {

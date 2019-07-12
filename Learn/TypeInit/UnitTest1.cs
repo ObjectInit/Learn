@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.TypeInit
+namespace Learn.UnitTest.TypeInit
 {
 
     internal class Foo

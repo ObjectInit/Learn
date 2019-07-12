@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 /// <summary>
 /// owin简单使用
 /// </summary>
-namespace Learn.owin
+namespace Learn.UnitTest.owin
 {
     [TestClass]
     public class UnitTest1

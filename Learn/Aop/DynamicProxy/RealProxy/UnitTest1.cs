@@ -1,7 +1,6 @@
-﻿using System; 
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.Aop.DynamicProxy.RealProxy
+namespace Learn.UnitTest.Aop.DynamicProxy.RealProxy
 {
     [TestClass]
     public class UnitTest1

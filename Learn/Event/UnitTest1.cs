@@ -2,7 +2,7 @@
 using System.Threading;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.Event
+namespace Learn.UnitTest.Event
 {
     #region 委托的定义
     /// <summary>

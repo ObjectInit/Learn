@@ -2,7 +2,7 @@
 using Autofac;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.Ioc.AutoFacM
+namespace Learn.UnitTest.Ioc.AutoFacM
 {
     [TestClass]
     public class UnitTest1

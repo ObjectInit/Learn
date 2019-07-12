@@ -8,14 +8,8 @@
 * 创建时间：2019/7/2 13:13:03 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LearnTest.Temp
+namespace Learn.Console.Temp
 {
     public class Program : IMain
     {

@@ -1,7 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.DesignPattern
+namespace Learn.UnitTest.DesignPattern
 {
     [TestClass]
     public class UnitTest1

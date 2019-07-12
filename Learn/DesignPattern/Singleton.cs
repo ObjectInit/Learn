@@ -8,16 +8,10 @@
 * 创建时间：2019/5/24 9:48:40 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
-namespace Learn.DesignPattern
+namespace Learn.UnitTest.DesignPattern
 {
     /// <summary>
     /// 单例模式

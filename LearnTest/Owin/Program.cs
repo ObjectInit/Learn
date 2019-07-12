@@ -8,14 +8,10 @@
 * 创建时间：2019/6/20 16:18:44 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using Microsoft.Owin.Hosting;
 
-namespace LearnTest.Owin
+namespace Learn.Console.Owin
 {
     public class Program:IMain
     {
@@ -28,8 +24,8 @@ namespace LearnTest.Owin
             };
             using (WebApp.Start<Startup>(startOpts))
             {
-                Console.WriteLine("Server run at " + url + " , press Enter to exit.");
-                Console.ReadLine();
+                System.Console.WriteLine("Server run at " + url + " , press Enter to exit.");
+                System.Console.ReadLine();
             }
         }
     }

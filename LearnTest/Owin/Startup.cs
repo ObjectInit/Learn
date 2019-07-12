@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 using Microsoft.Owin;
 using Owin;
 
-namespace LearnTest.Owin
+namespace Learn.Console.Owin
 {
     public class Startup
     {

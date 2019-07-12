@@ -8,13 +8,10 @@
 * 创建时间：2019/5/17 11:25:45 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.Aop.DynamicProxy.Castle
+using System;
+
+namespace Learn.UnitTest.Aop.DynamicProxy.Castle
 {
     /// <summary>
     /// 此类型会被代理

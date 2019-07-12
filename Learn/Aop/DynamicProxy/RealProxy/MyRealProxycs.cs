@@ -8,14 +8,11 @@
 * 创建时间：2019/5/17 14:06:30 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.Aop.DynamicProxy.RealProxy
+using System;
+using System.Runtime.Remoting.Messaging;
+
+namespace Learn.UnitTest.Aop.DynamicProxy.RealProxy
 {
     public class MyRealProxy<T> :System.Runtime.Remoting.Proxies.RealProxy
     {

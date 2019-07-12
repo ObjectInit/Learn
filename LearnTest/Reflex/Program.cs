@@ -8,13 +8,10 @@
 * 创建时间：2019/7/2 9:38:57 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace LearnTest.Reflex
+using System;
+
+namespace Learn.Console.Reflex
 {
     public class Program:IMain
     {

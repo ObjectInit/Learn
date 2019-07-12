@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.DynamicType
+namespace Learn.UnitTest.DynamicType
 {
     [TestClass]
     public class UnitTest1

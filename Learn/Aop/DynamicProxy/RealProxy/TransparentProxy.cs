@@ -8,13 +8,10 @@
 * 创建时间：2019/5/17 14:32:39 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.Aop.DynamicProxy.RealProxy
+using System;
+
+namespace Learn.UnitTest.Aop.DynamicProxy.RealProxy
 {
     public static class TransparentProxy
     {

@@ -1,7 +1,6 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Learn.Aop.Static
+namespace Learn.UnitTest.Aop.Static
 {
     [TestClass]
     public class UnitTest1

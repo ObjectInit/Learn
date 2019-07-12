@@ -9,7 +9,7 @@
 * =============================================================*/
 #endregion
 
-namespace Learn.Aop.DynamicProxy.PIAB
+namespace Learn.UnitTest.Aop.DynamicProxy.PIAB
 {
     public class User
     {
