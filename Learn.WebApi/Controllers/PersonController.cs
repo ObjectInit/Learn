@@ -15,9 +15,10 @@ namespace Learn.WebApi.Controllers
         private ApiTools tool = new ApiTools();
         
 
-        [HttpGet]
-        public HttpResponseMessage CheckUserName(string userName)
+        [HttpPost]
+        public HttpResponseMessage CheckUserName([FromBody]string userName)
         {
+            //string content = Request.Content.ReadAsAsync<string>().Result;
                 return tool.MsgFormat(ResponseCode.成功, "可注册", "0 " + userName);
 
         }

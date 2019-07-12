@@ -18,8 +18,9 @@ namespace Learn.Console.RequestWebApi.BySelfe
     {
         public void Main(string[] args)
         {
-            //RunApp();
-            Post("http://localhost:62773/api/Person/CheckUserName", "userName=lwh");
+            RunApp();
+            //Post("http://localhost:62773/api/Person/CheckUserName", "userName=lwh");
+            Post("http://localhost:8183/api/Person/CheckUserName", "userName=lwh");
             System.Console.ReadLine();
         }
 
@@ -69,7 +70,7 @@ namespace Learn.Console.RequestWebApi.BySelfe
                     init_Request(ref request);
                     request.Method = "POST";
                     request.ServicePoint.Expect100Continue = false;
-                    request.ContentType = "application/x-www-form-urlencoded; charset=utf-8";
+                    request.ContentType = "application/json; charset=utf-8";
                     var bytes = System.Text.UTF8Encoding.UTF8.GetBytes(data);
                     request.ContentLength = bytes.Length;
                     using (var stream = request.GetRequestStream())
