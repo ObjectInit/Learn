@@ -13,16 +13,22 @@ namespace Learn.WebApi.Controllers
     public class PersonController : ApiController
     {
         private ApiTools tool = new ApiTools();
-        
+
 
         [HttpPost]
         public HttpResponseMessage CheckUserName([FromBody]Person userName)
         {
             //string content = Request.Content.ReadAsAsync<string>().Result;
-                return tool.MsgFormat(ResponseCode.成功, "可注册", "0 " + userName);
+            return tool.MsgFormat(ResponseCode.成功, "可注册", "0 " + userName);
 
         }
 
+        [HttpPost]
+        [Route("~/Api/Person/CheckUserName2/{str1}/{str2}")]
+        public HttpResponseMessage CheckUserName2(string str1, string str2)
+        {
+            return tool.MsgFormat(ResponseCode.成功, "可注册", "0 ");
+        }
         public class Person
         {
             public string UserName { get; set; }

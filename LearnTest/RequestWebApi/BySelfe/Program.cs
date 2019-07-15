@@ -20,7 +20,7 @@ namespace Learn.Console.RequestWebApi.BySelfe
         {
             RunApp();
             //Post("http://localhost:62773/api/Person/CheckUserName", "userName=lwh");
-            Post("http://localhost:8183/api/Person/CheckUserName", "{\"userName\":\"lwh\"");
+            Post("http://localhost:8183/api/Person/CheckUserName2/123/321", "");
             System.Console.ReadLine();
         }
 
