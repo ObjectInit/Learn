@@ -61,10 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AutoMapper\MappingProfile.cs" />
-    <Compile Include="AutoMapper\Program.cs" />
-    <Compile Include="AutoMapper\User.cs" />
-    <Compile Include="AutoMapper\UserDto.cs" />
+    <Compile Include="AutoMapper\Flatten\Program.cs" />
+    <Compile Include="AutoMapper\Simple\MappingProfile.cs" />
+    <Compile Include="AutoMapper\Simple\Program.cs" />
+    <Compile Include="AutoMapper\Simple\User.cs" />
+    <Compile Include="AutoMapper\Simple\UserDto.cs" />
     <Compile Include="IMain.cs" />
     <Compile Include="MicrosoftFrameWork\InterfaceOfIDictionary\Program.cs" />
     <Compile Include="MicrosoftFrameWork\KnowForeach\Program.cs" />
@@ -84,6 +85,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AutoMapper\Simple\说明.txt" />
     <Content Include="AutoMapper\说明.txt" />
     <Content Include="MicrosoftFrameWork\KnowForeach\说明.txt" />
     <Content Include="MicrosoftFrameWork\TypeOfDictionary\说明.txt" />

@@ -8,13 +8,8 @@
 * 创建时间：2019/8/2 13:27:35 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Learn.Console.AutoMapper
+namespace Learn.Console.AutoMapper.Simple
 {
     public class UserDto
     {

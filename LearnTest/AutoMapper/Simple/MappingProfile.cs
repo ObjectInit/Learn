@@ -8,17 +8,14 @@
 * 创建时间：2019/8/2 15:50:14 
 * =============================================================*/
 #endregion
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 using AutoMapper;
 
-namespace Learn.Console.AutoMapper
+namespace Learn.Console.AutoMapper.Simple
 {
     /// <summary>
     /// 直接通过构造函数进行配置
+    /// 映射配置
     /// </summary>
     public class MappingProfile:Profile
     {

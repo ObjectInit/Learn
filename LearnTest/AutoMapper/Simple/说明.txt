@@ -1,0 +1,4 @@
+﻿简单的映射规则
+讲解包含如何通过config 来创建 mapper 示例
+
+https://automapper.readthedocs.io/en/latest/5.0-Upgrade-Guide.html
