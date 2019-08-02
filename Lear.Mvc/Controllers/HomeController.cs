@@ -12,8 +12,8 @@ namespace Lear.Mvc.Controllers
         public ActionResult Index()
         {
             //Session["u"] = "ly";
-           
-            return View();
+            OtherController other = new OtherController();
+            return other.Index();
         }
 
         public ActionResult MySession()

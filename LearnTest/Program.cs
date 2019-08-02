@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
            
-            IMain main = new RequestWebApi.BySelfe.Program();
+            IMain main = new AutoMapper.Program();
             main.Main(args);
         }
     }

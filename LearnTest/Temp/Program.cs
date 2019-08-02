@@ -9,19 +9,46 @@
 * =============================================================*/
 #endregion
 
+using System;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Reflection.Emit;
+using AutoMapper;
+
 namespace Learn.Console.Temp
 {
     public class Program : IMain
     {
         public void Main(string[] args)
         {
-            int[] array = new int[] { };
-            foreach (var item in array)
-            {
+            Assembly assembly = Assembly.GetExecutingAssembly();
+            var typeName = $"Learn.Console.Temp.A";//根据约定code就是实体名称
+            object[] parameters = new object[1];
+            parameters[0] = assembly.CreateInstance(typeName);
 
-            }
+            var t=typeof(A);
+            var method= t.GetMethod("Index");
+            method.Invoke(parameters[0],null);
         }
     }
 
+    public class A:B
+    {
 
+    }
+
+    public class B
+    {
+        public B()
+        {
+            int a = 1;
+        }
+
+        public void Index()
+        {
+
+        }
+    }
+
+   
 }
