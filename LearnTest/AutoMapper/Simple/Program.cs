@@ -29,7 +29,7 @@ namespace Learn.Console.AutoMapper.Simple
         /// <param name="mapper"></param>
         private void SinglerMapper()
         {
-            //1.创建mapper对象,通过config创建
+            //1.创建mapper对象,通过MapperConfiguration对象创建
             MapperConfiguration config = new MapperConfiguration(
                 cfg => cfg.CreateMap<User, UserDto>()
             );
@@ -60,7 +60,8 @@ namespace Learn.Console.AutoMapper.Simple
         /// </summary>
         private void SinglerMapper2()
         {
-            //1.创建mapper对象,通过config创建 并且在里面收集配置
+            //1.配置map config 2.创建mapper对象
+            //1.创建mapper对象,通过MapperConfiguration创建 并且在里面收集配置
             MapperConfiguration config = new MapperConfiguration(
                 cfg => cfg.AddProfile<MappingProfile>()
             );
@@ -86,6 +87,14 @@ namespace Learn.Console.AutoMapper.Simple
             var newUser = mapper.Map(user, user2);
         }
 
-
+        /// <summary>
+        /// 通过Mapper创建映射
+        /// </summary>
+        private void SinglerMapper3()
+        {
+            //通过mapper 静态方法配置映射
+            Mapper.Initialize(cfg => cfg.CreateMap<User, UserDto>());
+           // Mapper.Map(user,user2)
+        }
     }
 }

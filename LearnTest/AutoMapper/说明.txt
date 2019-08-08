@@ -1,2 +1,4 @@
 ﻿automapper 说明使用
 ReadableExpressions 扩展工具包  可以了解映射
+
+automapper 使用文档 http://docs.automapper.org/en/stable/Flattening.html#includemembers

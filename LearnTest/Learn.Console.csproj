@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutoMapper\Flatten-IncludeMembers\Program.cs" />
     <Compile Include="AutoMapper\Flatten\Program.cs" />
     <Compile Include="AutoMapper\Simple\MappingProfile.cs" />
     <Compile Include="AutoMapper\Simple\Program.cs" />
@@ -85,6 +86,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AutoMapper\Flatten-IncludeMembers\说明.txt" />
+    <Content Include="AutoMapper\Flatten\说明.txt" />
     <Content Include="AutoMapper\Simple\说明.txt" />
     <Content Include="AutoMapper\说明.txt" />
     <Content Include="MicrosoftFrameWork\KnowForeach\说明.txt" />

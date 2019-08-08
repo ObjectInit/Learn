@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
            
-            IMain main = new AutoMapper.Simple.Program();
+            IMain main = new AutoMapper.Flatten_IncludeMembers.Program();
             main.Main(args);
         }
     }

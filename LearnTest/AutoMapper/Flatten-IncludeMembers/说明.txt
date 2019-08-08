@@ -1,0 +1,2 @@
+﻿文档:http://docs.automapper.org/en/stable/Flattening.html#includemembers
+这是一个展平时更多控制的示例
