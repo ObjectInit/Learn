@@ -27,6 +27,8 @@ namespace Learn.Console.AutoMapper.Flatten_IncludeMembers
         public string Name { get; set; }
         public OtherInnerSource OtherInnerSource { get; set; }
         public InnerSource InnerSource { get; set; }
+
+         
         
     }
 
@@ -45,6 +47,8 @@ namespace Learn.Console.AutoMapper.Flatten_IncludeMembers
     {
         public string Name { get; set; }
         public string Description { get; set; }
+
+        public string Title1 { get; set; }
     }
     class OtherInnerSource
     {
@@ -132,9 +136,10 @@ namespace Learn.Console.AutoMapper.Flatten_IncludeMembers
             MapperConfiguration config = new MapperConfiguration(
                 cfg =>
                 {
-                    cfg.CreateMap<Source, Destination>().IncludeMembers(x => x.InnerSource,x=>x.OtherInnerSource);//配置目标类型能从 源类型能查找的子对象类型
+                    cfg.CreateMap<Source, Destination>(MemberList.Source)
+                    .IncludeMembers(x => x.InnerSource,x=>x.OtherInnerSource);//配置目标类型能从 源类型能查找的子对象类型
                     cfg.CreateMap<OtherInnerSource, Destination>(MemberList.None);
-                    cfg.CreateMap<InnerSource, Destination>(MemberList.None);//配置目标类型与源目标子对象类型映射,如果源类型包含多个子对象,需要创建多个到目标类型的映射
+                    cfg.CreateMap<InnerSource, Destination>(MemberList.None).ForMember(des=>des.Title,o=>o.MapFrom(x=>x.Title1));//配置目标类型与源目标子对象类型映射,如果源类型包含多个子对象,需要创建多个到目标类型的映射
                 }
             );
             var mapper = config.CreateMapper();
@@ -142,7 +147,7 @@ namespace Learn.Console.AutoMapper.Flatten_IncludeMembers
             var source = new Source
             {
                 Name = "name",
-                InnerSource = new InnerSource { Description = "description" },
+                InnerSource = new InnerSource { Description = "description",Title1="Title1" },
                 OtherInnerSource = new OtherInnerSource { Description = "description1", Title = "title", Name = "name1" }
             };
             var destination = mapper.Map<Destination>(source);
