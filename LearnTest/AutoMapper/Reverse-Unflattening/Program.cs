@@ -5,44 +5,33 @@
 // </copyright>
 * 功能描述：Program 
 * 创 建 者：Administrator 
-* 创建时间：2019/7/2 13:13:03 
+* 创建时间：2019/9/10 10:34:02 
 * =============================================================*/
 #endregion
-
 using System;
 using System.Collections.Generic;
-using System.Reflection;
-using System.Reflection.Emit;
-using AutoMapper;
 using System.Linq;
-namespace Learn.Console.Temp
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Learn.Console.AutoMapper.Unflattening
 {
-    public class Program : IMain
+    public class Order
+    {
+        public decimal Total { get; set; }
+        public Customer Customer { get; set; }
+    }
+
+    public class Customer
+    {
+        public string Name { get; set; }
+    }
+
+    class Program:IMain
     {
         public void Main(string[] args)
         {
-            List<int> a = new List<int> {1, 2};
-            var newA = a.Union(new List<int> {2, 3});
+            throw new NotImplementedException();
         }
     }
-
-    public class A:B
-    {
-
-    }
-
-    public class B
-    {
-        public B()
-        {
-            int a = 1;
-        }
-
-        public void Index()
-        {
-
-        }
-    }
-
-   
 }

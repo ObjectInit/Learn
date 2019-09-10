@@ -12,14 +12,26 @@ namespace Lear.Mvc.Controllers
         public ActionResult Index()
         {
             //Session["u"] = "ly";
-            OtherController other = new OtherController();
-            return other.Index();
+            return View();
+
         }
 
         public ActionResult MySession()
         {
             //ViewBag.Session = Session["u"]; 
             return View();
+        }
+
+        public ActionResult Do1()
+        {
+            Session["D"] = 1;
+            return null;
+        }
+
+        public ActionResult Do2()
+        {
+            var t = Session["D"];
+            return null;
         }
     }
 }

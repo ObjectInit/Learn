@@ -67,6 +67,7 @@
     <Compile Include="AutoMapper\Simple\Program.cs" />
     <Compile Include="AutoMapper\Simple\User.cs" />
     <Compile Include="AutoMapper\Simple\UserDto.cs" />
+    <Compile Include="AutoMapper\Reverse-Unflattening\Program.cs" />
     <Compile Include="IMain.cs" />
     <Compile Include="MicrosoftFrameWork\InterfaceOfIDictionary\Program.cs" />
     <Compile Include="MicrosoftFrameWork\KnowForeach\Program.cs" />
@@ -89,6 +90,7 @@
     <Content Include="AutoMapper\Flatten-IncludeMembers\说明.txt" />
     <Content Include="AutoMapper\Flatten\说明.txt" />
     <Content Include="AutoMapper\Simple\说明.txt" />
+    <Content Include="AutoMapper\Reverse-Unflattening\说明.txt" />
     <Content Include="AutoMapper\说明.txt" />
     <Content Include="MicrosoftFrameWork\KnowForeach\说明.txt" />
     <Content Include="MicrosoftFrameWork\TypeOfDictionary\说明.txt" />
@@ -101,5 +103,6 @@
       <Name>Learn.WebApi</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

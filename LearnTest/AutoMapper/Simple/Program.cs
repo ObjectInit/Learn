@@ -17,9 +17,13 @@ namespace Learn.Console.AutoMapper.Simple
     {
         public void Main(string[] args)
         {
-            SinglerMapper();
+            //SinglerMapper();
 
-            SinglerMapper2();
+            //SinglerMapper2();
+
+            //SinglerMapper3();
+
+            SingleMapper4();
         }
 
 
@@ -95,6 +99,17 @@ namespace Learn.Console.AutoMapper.Simple
             //通过mapper 静态方法配置映射
             Mapper.Initialize(cfg => cfg.CreateMap<User, UserDto>());
            // Mapper.Map(user,user2)
+        }
+
+        private void SingleMapper4()
+        {
+            //通过mapper 静态方法配置映射
+            Mapper.Initialize(cfg => cfg.CreateMap<User, UserDto>().ReverseMap());
+            var user=  Mapper.Map<User>(new UserDto()
+            {
+                Name = "刘文汉",
+                Age = 12
+            });
         }
     }
 }

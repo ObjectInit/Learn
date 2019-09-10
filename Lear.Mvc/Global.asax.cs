@@ -7,7 +7,7 @@ using System.Web.Routing;
 
 namespace Lear.Mvc
 {
-    public class MvcApplication : Application.PeopleOnline.MyApplication
+    public class MvcApplication : HttpApplication
     {
         
     }

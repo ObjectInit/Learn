@@ -4,4 +4,17 @@
 }
 
 <h2>Hello,World</h2>
+<input type="button" onclick="do1" value="do1" />
+<input type="button" onclick="do2" value="do2" />
+<script>
+    function do1() {
+        $.post("/Home/Do1", function() {
 
+        })
+    }
+    function do2() {
+        $.post("/Home/Do2", function () {
+
+        })
+    }
+</script>
