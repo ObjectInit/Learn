@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
            
-            IMain main = new AutoMapper.Simple.Program();
+            IMain main = new FakerExt.Program();
             main.Main(args);
         }
     }

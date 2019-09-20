@@ -1,0 +1,5 @@
+﻿Faker.Net  方便生成大批量测试数据的框架。
+
+搜索 Faker
+
+转载：https://www.cnblogs.com/SavionZhang/p/6951130.html
