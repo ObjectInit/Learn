@@ -17,32 +17,29 @@ using AutoMapper;
 using System.Linq;
 namespace Learn.Console.Temp
 {
+    public class User
+    {
+        public string Name { get; set; }
+
+        public int age { get; set; }
+
+    }
+
+    public class UserDto
+    {
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+    }
     public class Program : IMain
     {
         public void Main(string[] args)
         {
-            List<int> a = new List<int> {1, 2};
-            var newA = a.Union(new List<int> {2, 3});
-        }
-    }
-
-    public class A:B
-    {
-
-    }
-
-    public class B
-    {
-        public B()
-        {
-            int a = 1;
-        }
-
-        public void Index()
-        {
-
-        }
-    }
-
-   
+            //1.创建mapper对象,通过MapperConfiguration对象创建
+            MapperConfiguration config = new MapperConfiguration(
+                cfg => cfg.CreateMap<User, UserDto>()
+            );
+            var mapper = config.CreateMapper();
+        } 
+    } 
 }

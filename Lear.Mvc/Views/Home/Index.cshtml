@@ -3,12 +3,48 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Hello,World</h2>
-<input type="button" onclick="do1" value="do1" />
-<input type="button" onclick="do2" value="do2" />
+<form id="form" action="/Import/">
+    <div class="page-section">
+        <div class="page-action">
+            <div class="form-button p-5-10">
+               
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Section Begin Free数据  -->
+    <div class="page-section page-section p-large bg-gray">
+
+        <!-- Table Begin -->
+        <table border="0" cellspacing="0" cellpadding="0" class="default-table">
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="text-container align-right" style="width:90px;">选择文件 :&nbsp;</div>
+                    </td>
+                    <td>
+                        <input type="file"  class="input align-right" >
+                         
+                    </td>
+                </tr>
+                <tr>
+                    <td >
+                        <input type="submit" value="导入" />
+                    </td>
+                   
+                </tr> 
+            </tbody>
+        </table>
+        <!-- Table End -->
+
+    </div>
+    <!-- Section End     -->
+
+</form>
 <script>
     function do1() {
-        $.post("/Home/Do1", function() {
+        $.post("/Home/Do1", function () {
 
         })
     }

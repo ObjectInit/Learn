@@ -9,11 +9,30 @@
 * =============================================================*/
 #endregion
 
+using System;
+
 namespace Learn.Console.AutoMapper.Simple
 {
     public class UserDto
     {
-        public string Name { get; set; }
+        public int Id { get; set; }
+
+        public string name { get; set; }
+
         public int Age { get; set; }
+
+        public int? BookCount { get; set; }
+
+        public string SimpleName { get; set; }
+
+        public string MyAge { get; set; }
+
+        public B MyExt { get; set; }
+
+        public string IgnoreName { get; set; }
+
+        public string NoneProper { get; set; }
+
+        public string Gender { get; set; }
     }
 }

@@ -1,21 +1,22 @@
 ﻿#region  <<版本注释>>
 /* ========================================================== 
-// <copyright file="Program.cs" company="Shiji.BO.CS">
+// <copyright file="B.cs" company="Shiji.BO.CS">
 // Copyright (c) Shiji.BO.CS. All rights reserved.
 // </copyright>
-* 功能描述：Program 
+* 功能描述：B 
 * 创 建 者：Administrator 
-* 创建时间：2019/9/20 13:49:01 
+* 创建时间：2019/11/21 15:42:21 
 * =============================================================*/
 #endregion
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Learn.Console.FakerExt
+namespace Learn.Console.AutoMapper.Simple
 {
-    public class Program:IMain
+    public class B
     {
-        public void Main(string[] args)
-        {
-            
-        }
     }
 }

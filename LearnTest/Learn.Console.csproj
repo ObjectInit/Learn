@@ -66,6 +66,9 @@
   <ItemGroup>
     <Compile Include="AutoMapper\Flatten-IncludeMembers\Program.cs" />
     <Compile Include="AutoMapper\Flatten\Program.cs" />
+    <Compile Include="AutoMapper\Simple\A.cs" />
+    <Compile Include="AutoMapper\Simple\B.cs" />
+    <Compile Include="AutoMapper\Simple\GenderTypeConvertert .cs" />
     <Compile Include="AutoMapper\Simple\MappingProfile.cs" />
     <Compile Include="AutoMapper\Simple\Program.cs" />
     <Compile Include="AutoMapper\Simple\User.cs" />
