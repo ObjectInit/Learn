@@ -55,6 +55,9 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -74,6 +77,8 @@
     <Compile Include="AutoMapper\Simple\User.cs" />
     <Compile Include="AutoMapper\Simple\UserDto.cs" />
     <Compile Include="AutoMapper\Reverse-Unflattening\Program.cs" />
+    <Compile Include="Copy\Deep\Program.cs" />
+    <Compile Include="Copy\Easy\Program.cs" />
     <Compile Include="FakerExt\Program.cs" />
     <Compile Include="IMain.cs" />
     <Compile Include="MicrosoftFrameWork\InterfaceOfIDictionary\Program.cs" />
@@ -87,6 +92,11 @@
     <Compile Include="Reflex\Program.cs" />
     <Compile Include="RequestWebApi\BySelfe\Program.cs" />
     <Compile Include="RequestWebApi\RestSharp\Program.cs" />
+    <Compile Include="RestSharp\RestFulService\Info.cs" />
+    <Compile Include="RestSharp\RestFulService\IPersonInfoQuery.cs" />
+    <Compile Include="RestSharp\RestFulService\PersonInfoQueryServices.cs" />
+    <Compile Include="RestSharp\RestFulService\Program.cs" />
+    <Compile Include="RestSharp\RestFulService\User.cs" />
     <Compile Include="Temp\Program.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -99,11 +109,14 @@
     <Content Include="AutoMapper\Simple\说明.txt" />
     <Content Include="AutoMapper\Reverse-Unflattening\说明.txt" />
     <Content Include="AutoMapper\说明.txt" />
+    <Content Include="Copy\说明.txt" />
     <Content Include="FakerExt\说明.txt" />
     <Content Include="MicrosoftFrameWork\KnowForeach\说明.txt" />
     <Content Include="MicrosoftFrameWork\TypeOfDictionary\说明.txt" />
     <Content Include="Owin\说明.txt" />
+    <Content Include="Reflex\说明.txt" />
     <Content Include="RequestWebApi\RestSharp\说明.txt" />
+    <Content Include="RestSharp\说明.txt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Learn.WebApi\Learn.WebApi.csproj">

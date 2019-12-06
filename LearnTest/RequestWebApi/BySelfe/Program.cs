@@ -38,7 +38,7 @@ namespace Learn.Console.RequestWebApi.BySelfe
         {
             try
             {
-                var request = (System.Net.HttpWebRequest)System.Net.HttpWebRequest.Create(url);
+                var request = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(url);
                 if (request != null)
                 {
                     string retval = null;

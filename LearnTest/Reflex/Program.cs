@@ -13,6 +13,15 @@ using System;
 
 namespace Learn.Console.Reflex
 {
+    public class Person
+    {
+        public int Age { get; set; }
+
+        public void Work()
+        {
+
+        }
+    }
     public class Program:IMain
     {
         public void Main(string[] args)

@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
            
-            IMain main = new AutoMapper.Simple.Program();
+            IMain main = new RestSharp.RestFulService.Program();
             main.Main(args);
         }
     }

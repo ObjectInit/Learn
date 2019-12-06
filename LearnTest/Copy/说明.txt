@@ -1,0 +1,8 @@
+﻿#专题  关于 深拷贝 浅拷贝
+https://www.kancloud.cn/wizardforcel/learning-hard-csharp/111515
+
+1.浅拷贝(对于引用类型:只拷贝引用地址,指向的还是同一个实例对象)
+集合的CopyTo是浅拷贝
+实现ICloneable的是浅拷贝
+
+2.深拷贝(反射，正反序列化：xml,二进制,DataContractSerializer ，表达式树)
