@@ -79,6 +79,12 @@
     <Compile Include="AutoMapper\Reverse-Unflattening\Program.cs" />
     <Compile Include="Copy\Deep\Program.cs" />
     <Compile Include="Copy\Easy\Program.cs" />
+    <Compile Include="Encoding\EnCodingHelper.cs" />
+    <Compile Include="Encoding\Program.cs" />
+    <Compile Include="Encoding\StringExtend.cs" />
+    <Compile Include="ExpressionTree\Program.cs" />
+    <Content Include="ExpressionTree\说明.txt" />
+    <Compile Include="ExpressionTree\Program1.cs" />
     <Compile Include="FakerExt\Program.cs" />
     <Compile Include="IMain.cs" />
     <Compile Include="MicrosoftFrameWork\InterfaceOfIDictionary\Program.cs" />

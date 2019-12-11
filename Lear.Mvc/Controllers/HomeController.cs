@@ -11,14 +11,14 @@ namespace Lear.Mvc.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            //Session["u"] = "ly";
+            Session["u"] = "ly";
             return View();
 
         }
 
         public ActionResult MySession()
         {
-            //ViewBag.Session = Session["u"]; 
+            Session.Clear(); 
             return View();
         }
 

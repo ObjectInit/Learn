@@ -27,6 +27,7 @@ namespace Learn.Console.Copy.Easy
             };
             // 下面2种方式实现的都是浅拷贝
             List<PersonA> personsCopy = new List<PersonA>(personList);
+            
             PersonA[] personCopy2 = new PersonA[2];
             personList.CopyTo(personCopy2);
 
