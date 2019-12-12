@@ -49,8 +49,5 @@ namespace Learn.Console.ExpressionTree
         }
     }
 
-    public class SnailExpressionVisitor : ExpressionVisitor
-    {
-
-    }
+    
 }
