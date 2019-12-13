@@ -22,6 +22,7 @@ namespace Learn.Console.ExpressionTree
         public void Main(string[] args)
         {
             CreateComplex();
+              
             System.Console.ReadLine();
         }
 

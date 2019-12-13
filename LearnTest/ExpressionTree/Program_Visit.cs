@@ -23,8 +23,9 @@ namespace Learn.Console.ExpressionTree
         {
             Expression<Func<int, int, bool>> expre = (x, y) => x - y > 5;
             SnailExpressionVisitor visitor = new SnailExpressionVisitor();
-            visitor.Visit(expre);
+            Expression modifiedExpr = visitor.Visit(expre);
 
+            System.Console.WriteLine($"Lambda的转换最后结果：{modifiedExpr.ToString()}");
             System.Console.ReadLine();
         }
     }
@@ -90,8 +91,28 @@ namespace Learn.Console.ExpressionTree
         }
         protected override Expression VisitBinary(BinaryExpression node)
         {
-            System.Console.WriteLine($"访问了 VisitBinary，内容：{node.ToString()}");
-            return base.VisitBinary(node);
+            if (node.NodeType == ExpressionType.GreaterThan)
+            {
+                Expression left = this.Visit(node.Left);
+                Expression right = this.Visit(node.Right);
+
+                Expression result = Expression.MakeBinary(ExpressionType.GreaterThanOrEqual,left,right,node.IsLiftedToNull,node.Method);
+                System.Console.WriteLine($"访问了 VisitBinary，更改之后的内容：{result.ToString()}");
+                return result;
+            }
+            else if (node.NodeType == ExpressionType.Subtract || node.NodeType == ExpressionType.SubtractChecked)
+            {
+                Expression left = this.Visit(node.Left);
+                Expression right = this.Visit(node.Right);
+
+                var result = Expression.MakeBinary(ExpressionType.Add, left, right, node.IsLiftedToNull, node.Method);
+                System.Console.WriteLine($"访问了 VisitBinary，更改之后的内容：{result.ToString()}");
+                return result;
+            }
+            else
+            {
+                return base.VisitBinary(node);
+            }
         }
         protected override Expression VisitBlock(BlockExpression node)
         {

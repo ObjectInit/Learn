@@ -85,6 +85,7 @@
     <Compile Include="ExpressionTree\Program.cs" />
     <Content Include="ExpressionTree\说明.txt" />
     <Compile Include="ExpressionTree\Program1.cs" />
+    <Compile Include="ExpressionTree\Program_Pager.cs" />
     <Compile Include="ExpressionTree\Program_Visit.cs" />
     <Compile Include="FakerExt\Program.cs" />
     <Compile Include="IMain.cs" />
