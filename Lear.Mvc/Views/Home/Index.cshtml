@@ -4,47 +4,13 @@
 }
 
 <form id="form" action="/Import/">
-    <div class="page-section">
-        <div class="page-action">
-            <div class="form-button p-5-10">
-               
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Section Begin Free数据  -->
-    <div class="page-section page-section p-large bg-gray">
-
-        <!-- Table Begin -->
-        <table border="0" cellspacing="0" cellpadding="0" class="default-table">
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="text-container align-right" style="width:90px;">选择文件 :&nbsp;</div>
-                    </td>
-                    <td>
-                        <input type="file"  class="input align-right" >
-                         
-                    </td>
-                </tr>
-                <tr>
-                    <td >
-                        <input type="submit" value="导入" />
-                    </td>
-                   
-                </tr> 
-            </tbody>
-        </table>
-        <!-- Table End -->
-
-    </div>
-    <!-- Section End     -->
-
+    输入姓名: <input type="text" id="myname" /><br>
+    输入年龄: <input type="text" id="myage" /><br>
+    <input type="button" value="提交" onclick="do1()" />
 </form>
 <script>
     function do1() {
-        $.post("/Home/Do1", function () {
+    $.post("Home/Do1", { name: $("#myname").val(), age: $("#myage").val()}, function() {
 
         })
     }

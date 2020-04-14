@@ -8,7 +8,7 @@ namespace Learn.Console
     {
         static void Main(string[] args)
         {
-            IMain main = new ExpressionTree.Program_Pager();
+            IMain main = new S.Api.Program();
             main.Main(args);
         }
     }

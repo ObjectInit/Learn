@@ -55,6 +55,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.ServiceModel.Web" />
@@ -65,6 +66,9 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoMapper\Flatten-IncludeMembers\Program.cs" />
@@ -79,16 +83,20 @@
     <Compile Include="AutoMapper\Reverse-Unflattening\Program.cs" />
     <Compile Include="Copy\Deep\Program.cs" />
     <Compile Include="Copy\Easy\Program.cs" />
+    <Compile Include="DesignPattern\Program_Memorandum.cs" />
     <Compile Include="Encoding\EnCodingHelper.cs" />
     <Compile Include="Encoding\Program.cs" />
     <Compile Include="Encoding\StringExtend.cs" />
     <Compile Include="ExpressionTree\Program.cs" />
+    <Compile Include="S.Api\Program.cs" />
+    <Compile Include="Temp\QueryExtension.cs" />
     <Content Include="ExpressionTree\说明.txt" />
     <Compile Include="ExpressionTree\Program1.cs" />
     <Compile Include="ExpressionTree\Program_Pager.cs" />
     <Compile Include="ExpressionTree\Program_Visit.cs" />
     <Compile Include="FakerExt\Program.cs" />
     <Compile Include="IMain.cs" />
+    <Compile Include="L.Driver\Program.cs" />
     <Compile Include="MicrosoftFrameWork\InterfaceOfIDictionary\Program.cs" />
     <Compile Include="MicrosoftFrameWork\KnowForeach\Program.cs" />
     <Compile Include="MicrosoftFrameWork\TypeOfDictionary\Program.cs" />

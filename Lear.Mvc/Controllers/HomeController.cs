@@ -21,8 +21,9 @@ namespace Lear.Mvc.Controllers
             Session.Clear(); 
             return View();
         }
-
-        public ActionResult Do1()
+        
+        [ValidateInput(false)]
+        public ActionResult Do1(string name, int age)
         {
             Session["D"] = 1;
             return null;
