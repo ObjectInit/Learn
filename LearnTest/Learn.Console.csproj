@@ -88,6 +88,9 @@
     <Compile Include="Encoding\Program.cs" />
     <Compile Include="Encoding\StringExtend.cs" />
     <Compile Include="ExpressionTree\Program.cs" />
+    <Compile Include="MicrosoftFrameWork\L.Generic\Program.cs" />
+    <Compile Include="MicrosoftFrameWork\L.Generic\Program_Node.cs" />
+    <Compile Include="MicrosoftFrameWork\L.Generic\Program_NodeType.cs" />
     <Compile Include="S.Api\Program.cs" />
     <Compile Include="Temp\QueryExtension.cs" />
     <Content Include="ExpressionTree\说明.txt" />
@@ -128,6 +131,7 @@
     <Content Include="Copy\说明.txt" />
     <Content Include="FakerExt\说明.txt" />
     <Content Include="MicrosoftFrameWork\KnowForeach\说明.txt" />
+    <Content Include="MicrosoftFrameWork\L.Generic\说明.txt" />
     <Content Include="MicrosoftFrameWork\TypeOfDictionary\说明.txt" />
     <Content Include="Owin\说明.txt" />
     <Content Include="Reflex\说明.txt" />

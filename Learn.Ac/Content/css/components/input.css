@@ -1,0 +1,74 @@
+﻿/*** 输入框 ***/
+/* 组合输入框容器 */
+.input-container {
+    display: inline-block;
+    line-height: 24px;
+    white-space: nowrap;
+    vertical-align: bottom;
+    vertical-align: inherit\9;
+}
+/* 全局输入框 */
+.input {
+    color: #666;
+    border: 1px solid #e4e4ea;
+    background-color: #ffffff;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0 6px;
+    height: 24px;
+    width: 100%;
+    outline: medium;
+    box-sizing: border-box;
+    margin:1px;
+}
+/* 禁用输入框 */
+.input-disabled {
+    background-color: #F1F1F1;
+    color: #bbb;
+}
+/* 错误输入框 */
+.input-error {
+    border-color: #F56C6C !important;
+}
+/* 输入框焦点 */
+.input:focus {
+    border: 1px solid #5292E2 !important;
+    box-shadow: 0 0 3px 0 #5292E2;
+}
+
+/* 带图标输入框 */
+.input-icon-container {
+    position: relative;
+    font-size: 12px;
+}
+
+    .input-icon-container .input {
+        padding-right: 24px !important;        
+    }
+
+    .input-icon-container .input-icon {
+        margin-left: -24px;
+        width: 24px;
+        text-align: center;
+        vertical-align: top;
+        display: inline-block;
+        position: absolute;
+        margin-top: 1px;
+        cursor: pointer;
+        right: 2px;
+        z-index: 1;
+        background: #fff;
+        height: 22px;
+        top: 1px;
+    }
+
+/* 多态框 */
+.cthree {
+    cursor: pointer;
+    width: 18px !important;
+    height: 18px;
+    font-size: 12px;
+    padding: 0;
+}

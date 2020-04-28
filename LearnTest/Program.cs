@@ -8,7 +8,7 @@ namespace Learn.Console
     {
         static void Main(string[] args)
         {
-            IMain main = new S.Api.Program();
+            IMain main = new Temp.Program();
             main.Main(args);
         }
     }

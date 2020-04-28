@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.WebApi", "Learn.WebAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.RestClient", "Learn.RestClient\Learn.RestClient.csproj", "{97284D07-153F-425C-9CE2-0A061AE12B4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.CodeUI", "Learn.CodeUI\Learn.CodeUI.csproj", "{F5E8B333-F705-4F66-A644-868973A81821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Ac", "Learn.Ac\Learn.Ac.csproj", "{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{97284D07-153F-425C-9CE2-0A061AE12B4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97284D07-153F-425C-9CE2-0A061AE12B4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97284D07-153F-425C-9CE2-0A061AE12B4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5E8B333-F705-4F66-A644-868973A81821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5E8B333-F705-4F66-A644-868973A81821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5E8B333-F705-4F66-A644-868973A81821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5E8B333-F705-4F66-A644-868973A81821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

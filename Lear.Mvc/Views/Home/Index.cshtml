@@ -3,14 +3,17 @@
     ViewBag.Title = "Index";
 }
 
-<form id="form" action="/Import/">
-    输入姓名: <input type="text" id="myname" /><br>
-    输入年龄: <input type="text" id="myage" /><br>
-    <input type="button" value="提交" onclick="do1()" />
+<form id="form" action="/home/index/" method="get">
+    输入姓名: <input type="text" id="myname" name="name" /><br>
+    输入年龄: <input type="text" id="myage" name="age" /><br>
+    <input type="submit" value="提交" />
+    <input type="button" value="ajax提交" onclick="do1()" />
+    
+    <a href="/home/index?name=刘文汉">链接</a>
 </form>
 <script>
     function do1() {
-    $.post("Home/Do1", { name: $("#myname").val(), age: $("#myage").val()}, function() {
+        $.post("/home/index", { name: encodeURIComponent($("#myname").val()), age: $("myage").val() }, function () {
 
         })
     }

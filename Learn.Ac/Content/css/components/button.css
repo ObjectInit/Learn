@@ -1,0 +1,86 @@
+﻿/*** 按钮 ***/
+
+/*** button ****/
+.button {
+    display: inline-block;
+    white-space: nowrap;
+    text-align: center;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    border: none;
+    opacity: 0.8;
+    cursor: pointer;
+    outline: none;
+    height: 24px;
+    line-height: 22px;
+    line-height: 24px\9;
+    padding: 0 6px;
+    font-size: 12px;
+    margin: 1px;
+}
+
+    .button:hover {
+        opacity: 0.6;
+    }
+
+    .button:active {
+        opacity: 1;
+    }
+
+/* 禁用状态 */
+.button-disabled {
+    background: #dddddd;
+    color: #ffffff;
+}
+
+    .button-disabled:hover, .button-disabled:focus {
+        cursor: not-allowed;
+        background-image: none;
+    }
+/* 默认按钮 */
+.default-button {
+    background: #2777db;
+    padding: 0 12px;
+    color: #ffffff;
+    border-radius: 2px;
+    vertical-align:top;
+}
+/* 按钮图标 */
+.button-icon {
+    color: #6e86a5;
+    opacity: 0.8;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.button-icon:hover {
+    opacity: 0.6;
+}
+
+.button-icon:active {
+    opacity: 1;
+}
+/* 表格默认按钮 */
+.grid-button-default {
+    border-radius: 2px;
+    color: #666;
+    background: #fff;
+    border: 1px solid #e4e4ea;
+    opacity: 1;
+}
+/* 表格自定义按钮 */
+.grid-button-custom {
+    border-radius: 2px;
+    color: #fff;
+    background: #6e86a5;
+    border: 0;
+    line-height: 22.5px\9;
+}
+.grid-action-list .grid-button-custom {
+    height: 23px;
+}
+/*表单提交按钮*/
+.form-button .grid-button-custom {
+    height: 22.5px;
+    vertical-align: super;
+}

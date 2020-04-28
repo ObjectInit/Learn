@@ -1,0 +1,46 @@
+﻿/* 弹窗关闭按钮 */
+.layui-layer-ico {
+    background: url(../../images/layer/icon.png) no-repeat;
+}
+/* 弹窗标题 */
+.layui-layer-title {
+    padding: 0 80px 0 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+    overflow: hidden;
+    background-color: #5292E2;
+    border-radius: 2px 2px 0 0
+}
+/* 弹窗关闭按钮位置 */
+.layui-layer-setwin {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    font-size: 0;
+    line-height: initial
+}
+    .layui-layer-setwin .layui-layer-min cite {
+        position: absolute;
+        width: 12px;
+        height: 2px;
+        left: 0;
+        top: 50%;
+        margin-top: -1px;
+        background-color: #fff;
+        cursor: pointer;
+        _overflow: hidden
+    }
+
+    .layui-layer-setwin .layui-layer-min:hover cite {
+        background-color: #e0dada;
+    }
+/* 载入动画 */
+.layui-layer-load {
+    background: url(../../images/loading-1.gif) center center no-repeat #eee;
+}
+/* iframe 块级元素 */
+.layui-layer-iframe iframe {
+    display: block;
+}

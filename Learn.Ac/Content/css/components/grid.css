@@ -1,0 +1,185 @@
+﻿/*** 表格 ***/
+/* 表格操作列表 */
+.grid-action-list {
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    background: #f3f3f3;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+
+/* 表格操作项 */
+.grid-action-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+/* 表格搜索项 */
+.grid-action-list .grid-search {
+    width: 120px;
+    width: 100px\9;
+    margin: 0 3px 0 10px;
+    position:relative\9;
+    top:-1.5px\9;
+}
+.grid-search .input {
+    height:25px;
+    line-height:25px;
+}
+/* 表格容器 */
+.grid {
+    padding: 0;
+    width: 100%;
+    font-size: 12px;
+    background: #FAFAFA;
+}
+    .grid table {
+        border-top:1px solid #e4e4ea;
+    }
+    .grid tr {
+        height: 26px;
+        background: #ffffff;
+    }
+
+        .grid tr:hover {
+            background: #f7f7f7;
+        }
+
+    .grid td {
+        padding: 1px;
+        border-width: 0 1px 1px 0;
+        border-style: solid;
+        border-color: #dddddd;
+        font-size: 0;
+        text-align: center;
+    }
+
+    /* 表格头容器 */
+    .grid .grid-header {
+        background: #FAFAFA;
+    }
+    /* 表格体容器 */
+    .grid .grid-body {
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    /* 表格尾容器 */
+    .grid .grid-footer {
+        background: #f7f7f7;
+    }
+    /* 表头行 */
+    .grid .grid-header-row {
+        height: 28px;
+        background: #f7f7f7;
+        text-align: center;
+    }
+
+    /* 表格行 */
+    .grid .grid-row {
+        height: 26px;
+        background: #ffffff;
+    }
+
+    .grid .grid-code-row {
+        height: 34px;
+        background: #ffffff;
+    }
+
+    .grid .grid-end-row {
+        font-weight: bold;
+        background: #fafafa;
+    }
+    /* 表格汇总行 */
+    .grid .grid-firstsummary-row {
+        height: 28px;
+        background: #F0FAFC;
+    }
+    /* 表格年汇总行 */
+    .grid .grid-secondsummary-row {
+        height: 28px;
+        background: #FCFCF0;
+    }
+    /* 一级表格行 */
+    .grid .grid-first-row {
+        height: 26px;
+        background: #84a5ce;
+    }
+
+        .grid .grid-first-row:hover {
+            background: #7298c7;
+        }
+
+        .grid .grid-first-row input {
+            background: #84a5ce;
+            color: #fff;
+            border-color: #84a5ce;
+        }
+
+        .grid .grid-first-row .text-container {
+            color: #fff;
+        }
+
+        .grid .grid-first-row .dropdown {
+            background: #fff;
+        }
+/*一级缩进*/
+.grid-first-indent {
+    margin-left: 20px;
+}
+/* 二级表格行 */
+.grid .grid-second-row {
+    height: 26px;
+    background: #daebff;
+}
+
+    .grid .grid-second-row:hover {
+        background: #bfdaff;
+    }
+
+    .grid .grid-second-row input {
+        background: #fff;
+        border-color: #ccc;
+    }
+/*二级缩进*/
+.grid-second-indent {
+    margin-left: 40px;
+}
+/* 父级表格行 */
+.grid .grid-parent-row {
+    height: 26px;
+    background: #F5f5f5;
+}
+
+    .grid .grid-parent-row input {
+        background: #f5f5f5;
+    }
+
+        .grid .grid-parent-row input:focus {
+            background: #fff;
+        }
+
+    .grid .grid-parent-row .dropdown .dropdown-toggle:hover {
+        background: #fff;
+    }
+/* 子表格行 */
+.grid .grid-son-row {
+    background: #fefefe;
+    opacity: 0.8;
+}
+
+    .grid .grid-son-row input {
+        background: #fff;
+        border-color: #ccc;
+    }
+
+/* 子表格样式 */
+.td-border-none {
+}
+
+    .td-border-none td {
+        border: 0 !important;
+        padding: 2px 0;
+    }

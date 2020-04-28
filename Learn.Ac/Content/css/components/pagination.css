@@ -1,0 +1,95 @@
+﻿/**
+* @name: 分页
+* @autor: zcc
+* @update: 2019-05-16
+*/
+.pagination {
+    font-size: 0;
+    height: 36px;
+    line-height: 36px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+    padding-left: 10px;
+    white-space: nowrap;
+    display: inline-block\9;
+    vertical-align: super\9;
+}
+    /* 分页按钮、文字项 */
+    .pagination .pagination-child {
+        height: 22px;
+        line-height: 22px;
+        display: inline-block;
+        font-size: 12px;
+        text-align: center;
+        color: #666;
+        vertical-align: middle;
+        height: 24px\9;
+        line-height: 22px\9;
+    }
+
+    /* 分割线（暂时保留）*/
+    .pagination .split {
+        border-right: 1px solid #E4E4EA;
+        margin-right: 12px;
+    }
+    /* 下拉菜单（暂时保留）*/
+    .pagination .pagination-select {
+        margin: 0 10px 0 7px;
+        border: 1px solid #E4E4EA;
+        cursor: pointer;
+        font-weight: bold;
+        width: 50px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /* 页码输入框*/
+    .pagination .pagination-input {
+        margin: 0 2px;
+        border: 1px solid #E4E4EA;
+        width: 30px;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /* 按钮图标*/
+    .pagination .pagination-icon {
+        border: 1px solid #E4E4EA;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        margin-left: 2px;
+        cursor: pointer;
+        font-size: 12px !important;
+        color: #999;
+        display: inline-block;
+        vertical-align: middle;
+        width: 24px\9;
+        height: 24px\9;
+        line-height: 24px\9;
+    }
+
+        .pagination .pagination-icon:hover {
+            color: #5292E2;
+            background: #ffffff;
+        }
+    /* 第一页按钮*/
+    .pagination .page-first {
+        margin-left: 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /* 文字页码*/
+    .pagination .pagination-number {
+        margin: 0 3px;
+        font-weight: bold;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .pagination .pagination-disabled {
+        opacity: 0.6 !important;
+        color: #ccc !important;
+        cursor: default !important;
+    }

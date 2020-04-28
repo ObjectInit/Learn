@@ -1,0 +1,16 @@
+﻿/*编号预览*/
+.previewnumber {
+    padding:20px;
+    width:410px;
+}
+.number-title {
+    font-size: 13px;
+}
+.number-text {
+    width:100%;
+    text-align:center;
+    font-weight:600;
+    font-size:14px;
+    margin-top:15px;
+}
+

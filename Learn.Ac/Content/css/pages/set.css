@@ -1,0 +1,80 @@
+﻿/* 设置分类标签 */
+.set-tabs {
+    width: 120px;
+    height: 100%;
+    background-color: #FAFAFA;
+    border-right: 1px solid #e4e4ea;
+    font-size: 12px;
+}
+
+    .set-tabs a {
+        display: block;
+        line-height: 30px;
+        width: 120px;
+        text-align: center;
+        border-bottom: 1px solid #e4e4ea;
+    }
+
+        .set-tabs a:hover {
+            background-color: #ffffff;
+        }
+
+        .set-tabs a:active {
+            background-color: #ffffff;
+        }
+
+/* 分割线*/
+.set-dividing-line {
+    width: 100%;
+    height: 1px;
+    background-color: #e4e4ea;
+    margin-bottom: 20px;
+}
+
+/* 设置内容容器*/
+.set-container {
+    width: calc(100% - 120px);
+    height: 100%;
+    overflow-y: auto;
+    
+    /* 设置主体*/
+}
+
+    .set-container .row {
+        width: 1110px !important;
+    }
+    /* 分类标题*/
+    .set-container .set-title {
+        width: 100px;
+        display: inline-block;
+        line-height: 24px;
+        font-size: 12px;
+    }
+
+
+    .set-container .set-main {
+        width: 100%;
+        display: inline-block;
+    }
+
+/* 设置内容尾部空白高度*/
+.setend {
+    height: 660px;
+}
+
+/* 设置块定位*/
+.set-position {
+    position: fixed;
+    bottom: 0px;
+    top: 45px;
+}
+.set-table {
+    width: 1110px;
+    font-size: 12px;
+}
+
+    .set-table tr {
+        vertical-align: top;
+        height: 34px;
+        line-height: 24px;
+    }

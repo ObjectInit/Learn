@@ -1,0 +1,181 @@
+﻿/* 页面头 */
+.login-header {
+    width: 100%;
+    height: 60px;
+}
+/* 页面体 */
+.login-main {
+    width: 100%;
+    min-width: 1364px;
+    min-height: 420px;
+    height: calc(100% - 120px);
+    background: url(/Content/images/loginbg.jpg) no-repeat;
+    background-size: 101% 100%;
+}
+    /* 登录背景图 */
+    .login-main .login-pic {
+        width: calc(100% - 500px);
+        height: 100%;
+        background: url(/Content/images/login-pic.png) no-repeat;
+        background-size: 80%;
+        background-position: center;
+        display: inline-block;
+    }
+/* 登录输入区 */
+.login-form {
+    width: 280px;
+    height: 280px;
+    background: #ffffff;
+    display: inline-block;
+    margin: auto 0;
+}
+    /* 登录输入列表 */
+    .login-form .login-form-list {
+        padding: 30px;
+    }
+    /* 登录输入项 */
+    .login-form .login-form-item {
+        height: 30px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+        position: relative;
+    }
+    /* 登录标题 */
+            .login-form .login-title {
+                font-size: 20px;
+                color: #5292E2;
+                margin: 0 10px 20px 0;
+                font-weight: 500;
+            }
+    /* 系统版本 */
+            .login-form .login-version {
+                font-size: 14px;
+                color: #999;
+                line-height: 30px;
+            }
+    /* 输入框图标 */
+            .login-form  .login-icon {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                position: absolute;
+                text-align: center;
+                color: #999;
+                cursor: default !important;
+            }
+    /* 输入框 */
+            .login-form .login-input {
+                height: 30px;
+                border-radius: 3px;
+                padding: 0 6px 0 30px;
+                width: 100%;
+                min-width: 100px;
+            }
+    /* 验证码 */
+            .login-form .login-code {
+                width: 160px;
+                height: 30px;
+                background-image: url(../Content/images/GetVerifyCode.jpg);
+                background-size: 100%;
+                margin: 0 10px;
+            }
+    /* 刷新 */
+            .login-form .login-refresh {
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                color: #5292E2;
+            }
+    /* 登录按钮 */
+    .login-form .login-button {
+        background: #5292E2;
+        width: 100%;
+        margin-top: 10px;
+        height: 30px;
+        line-height: 30px;
+        color: #fff;
+    }
+    /* 忘记密码 */
+            .login-form .login-forgetpw {
+                width: 100%;
+                text-align: right;
+                color: #999;
+                font-size: 12px;
+            }
+/* 页面尾 */
+.login-footer {
+    width: 100%;
+    height: 60px;
+}
+    /* 版权 */
+    .login-footer .login-copyright {
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        color: #999;
+        text-align: center;
+        vertical-align: middle;
+    }
+/* 页面容器 */
+.login-container {
+    width: 1364px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+/* logo容器 */
+.login-logo {
+    line-height: 60px;
+    width: 50%;
+}
+    /* logo */
+    .login-logo .icon-logo {
+        display: inline-block;
+        font-size: 38px !important;
+        cursor: default !important;
+    }
+    /* logo分割线 */
+    .login-logo .v-split {
+        width: 1px;
+        border-left: 1px solid #ccc;
+        height: 32px;
+        display: inline-block;
+        opacity: 0.3;
+    }
+    /* 企业标题容器 */
+    .login-logo .logo-title-container {
+        display: inline-block;
+    }
+    /* 企业中文标题 */
+.login-logo .logo-title-text {
+    font: bold 18px "Microsoft YaHei";
+    display: block;
+    line-height: 20px;
+    height: 20px;
+    margin-top: 12px;
+}
+    /* 企业英文标题 */
+    .login-logo .logo-title-en {
+        display: block;
+        line-height: 20px;
+        height: 20px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        color: #ccc;
+    }
+/* 语言选择 */
+.login-language {
+    width: 50%;
+    line-height: 80px;
+    height: 60px;
+    vertical-align: bottom;
+    text-align: right;
+    padding-right: 10px;
+    color: #999;
+}
+
+.login-language-text {
+    color: #999;
+}

@@ -1,0 +1,73 @@
+﻿/**
+* @name: 下拉按钮
+* @description: 下拉按钮，不换选中项
+* @autor: zcc
+* @update: 2019-05-16
+*/
+[data-component="listButton"] {
+    display: none;
+}
+
+/* 下拉按钮容器 */
+.lists-button {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    line-height: 24px
+}
+
+/* 下拉按钮 */
+.list-showdata {
+    min-width: 51px;
+    height: 24px;
+    background: #ffffff;
+    border: 1px solid #e4e4ea;
+    border-radius: 2px;
+    color: #666;
+    padding: 0 2px 0 7px;
+    line-height: 24px;
+    font-size: 12px !important;
+    white-space: nowrap;
+    display: inline-block;
+}
+.list-showdata:hover {
+    color: #5292E2;
+}
+.list-showdata:before {
+    float: right;
+}
+
+/* 展开区域容器 */
+.list-listed {
+    position: absolute;
+    z-index: 9;
+    background: #ffffff;
+    top: 25px;
+    right: 0;
+    border: 1px solid rgba(204, 204, 204, 1);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.06);
+    font-size: 12px;
+}
+
+/* 子项 */
+.list-listed li {
+    height: 26px;
+    line-height: 26px;
+    padding: 0 10px;
+    color: #666;
+    cursor: pointer;
+}
+
+.list-listed li:hover {
+    background: #F6F6F6;
+}
+
+.list-listed li:active {
+    color: #5292E2;
+}
+
+/* 子项 */
+.list-option {
+    height: 30px;
+    line-height: 30px;
+}

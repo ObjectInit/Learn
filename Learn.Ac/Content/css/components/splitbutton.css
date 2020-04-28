@@ -1,0 +1,106 @@
+﻿/**
+* @name: 分裂式按钮
+* @autor: zcc
+* @update: 2019-05-16
+*/
+[data-component="splitButton"] {
+    display: none;
+}
+
+/* 分类是按钮容器 */
+.split-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    padding-right: 21px;
+    font-size: 0;
+    white-space: nowrap;
+}
+
+/* 左侧按钮 */
+.split-text {
+    display: inline-block;
+    padding: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    border: 0;
+    margin-right: 2px;
+    cursor: pointer;
+    background: #6e86a5;
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+    .split-text:hover {
+        opacity: 0.6;
+    }
+    .split-text:active {
+        opacity: 1;
+    }
+
+/* 左侧按钮伪类 */
+.split-text:last-of-type {
+    margin-right: 0 !important;
+    border-right: 0 !important;
+}
+
+/*右侧小三角按钮容器*/
+.split-button-container {
+    width: 21px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+/*右侧小三角按钮*/
+.split-showdata {
+    width: 21px;
+    border: 0;
+    height: 24px;
+    line-height: 24px;
+    background: #6e86a5;
+    text-align: center;
+    border-left: 1px solid #fff;
+    opacity: 0.8;
+    border-radius: 2px;
+}
+
+    .split-showdata:hover {
+        opacity: 0.6;
+    }
+    .split-showdata:active {
+        opacity: 1;
+    }
+/*子项容器*/
+.split-select {
+    display: block;
+    position: fixed;
+    z-index: 999;
+    background: #fff;
+    border: 1px #e4e4ea solid;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.06);
+}
+    /*子项*/
+    .split-select .split-option-item {
+        height: 24px;
+        line-height: 24px;
+        padding: 0 10px;
+        color: #666;
+        cursor: pointer;
+        font-size:12px;
+
+    }
+
+        .split-select .split-option-item:hover {
+            background: #F6F6F6;
+        }
+
+        .split-select .split-option-item:active {
+            color: #5292E2;
+        }

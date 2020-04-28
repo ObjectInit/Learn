@@ -1,0 +1,33 @@
+﻿/*** label ****/
+/* label容器 */
+.label-container {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    font-size:12px;
+}
+    /* label */
+    .label {
+        text-align: right;
+        padding-right: 6px;
+        padding-left: 10px;
+    }
+    /* 冒号 */
+    .label-colon {
+        position: absolute;
+        right: 0;
+        width: 12px;
+    }
+/* text容器 */
+.text-container {
+    color: #666;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0 2px;
+    font-size: 12px;
+    vertical-align: top;
+}

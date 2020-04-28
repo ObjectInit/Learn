@@ -1,0 +1,430 @@
+﻿/*初始化样式*/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 12px;
+    font-family: Microsoft YaHei, Verdana, Tahoma, Arial, "Helvetica Neue", Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #666;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #FAFAFA;
+}
+
+iframe {
+    border: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: #666;
+}
+
+    a:link {
+        outline: none;
+        text-decoration: none;
+    }
+
+    a:focus {
+        outline: none;
+        -moz-outline: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+input::-ms-clear, input::-ms-reveal {
+    display: none;
+}
+ul li {
+    list-style-type: none;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+select {
+    text-decoration: none;
+    outline: none;
+    color: #666;
+}
+
+/*默认表格*/
+.default-table {
+    font-size: 12px;
+}
+
+    .default-table tr {
+        vertical-align: top;
+        height: 34px;
+        line-height: 24px;
+    }
+
+.td-pointer {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+/*字体图标*/
+.iconfont {
+    font-size: 12px;
+}
+
+.icon-default {
+    font-size: 16px !important;
+}
+
+.icon-large {
+    font-size: 18px !important;
+}
+
+/*开滚动条*/
+.scrollbar-on {
+    overflow: auto;
+}
+
+/*清除浮动*/
+.clr {
+    clear: both;
+}
+/*左浮动*/
+.fl {
+    float: left;
+}
+/*右浮动*/
+.fr {
+    float: right;
+}
+/*倒三角*/
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 5px solid;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+/*字体加粗*/
+.bold {
+    font-weight: 700;
+}
+
+/*对齐*/
+.align-center {
+    text-align: center !important;
+}
+
+.align-right {
+    text-align: right !important;
+}
+
+.align-left {
+    text-align: left !important;
+}
+/*内边距开始*/
+.p-tiny {
+    padding: 3px;
+}
+
+.p-l-tiny {
+    padding-left: 3px;
+}
+
+.p-r-tiny {
+    padding-right: 3px;
+}
+
+.p-l-r-tiny {
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.p-l-small {
+    padding-left: 5px;
+}
+
+.p-small {
+    padding: 5px;
+}
+
+.p-r-small {
+    padding-right: 5px;
+}
+
+.p-l-r-small {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.p-default {
+    padding: 10px;
+}
+
+.p-l-default {
+    padding-left: 10px;
+}
+
+.p-r-default {
+    padding-right: 10px;
+}
+
+.p-t-default {
+    padding-top: 10px;
+}
+
+.p-l-r-default {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.p-t-b-default {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-l-large {
+    padding-left: 20px;
+}
+
+.p-large {
+    padding: 20px;
+}
+
+.p-r-large {
+    padding-right: 20px;
+}
+
+.p-l-r-large {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.p-t-b-large {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.p-5-10 {
+    padding: 5px 10px;
+}
+
+/*内边距结束*/
+
+/*外边距开始*/
+.m-tiny {
+    margin: 3px;
+}
+
+.m-l-tiny {
+    margin-left: 3px;
+}
+
+.m-r-tiny {
+    margin-right: 3px;
+}
+
+.m-l-r-tiny {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.m-small {
+    margin: 5px;
+}
+
+.m-l-small {
+    margin-left: 5px;
+}
+
+.m-r-small {
+    margin-right: 5px;
+}
+
+.m-l-r-small {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.m-b-small {
+    margin-bottom: 5px;
+}
+
+.m-default {
+    margin: 10px;
+}
+
+.m-l-default {
+    margin-left: 10px !important;
+}
+
+.m-l-r-default {
+    margin: 0 10px;
+}
+
+.m-r-default {
+    margin-right: 10px;
+}
+
+.m-r-large {
+    margin-right: 20px;
+}
+
+.m-large {
+    margin: 20px;
+}
+
+.m-l-large {
+    margin-left: 20px;
+}
+
+.m-l-r-large {
+    margin: 0 20px;
+}
+
+.m-t-b-default {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.m-b-default {
+    margin-bottom: 10px;
+}
+
+.m-b-5 {
+    margin-bottom: 5px;
+}
+
+.m-b-large {
+    margin-bottom: 20px;
+}
+
+.m-t-b-large {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.m-r-40 {
+    margin-right: 40px;
+}
+
+.m-l-90 {
+    margin-left: 90px;
+}
+
+.m-l-70 {
+    margin-left: 70px;
+}
+
+.m-l-13 {
+    margin-left: 13px;
+}
+/*外边距结束*/
+
+/**默认高度*/
+.h-default {
+    height: 30px;
+}
+
+/**100%高度*/
+.h-100 {
+    height: 100%;
+}
+
+/**蓝色*/
+.blue {
+    color: #5292E2 !important;
+}
+/**白色*/
+.white {
+    color: #ffffff !important;
+}
+/**橙色*/
+.orange {
+    color: #ff9f22 !important;
+}
+/**绿色*/
+.green {
+    color: #47a519 !important;
+}
+/*红色*/
+.red {
+    color: #F56C6C !important;
+}
+/**蓝色边框*/
+.blue-border {
+    border: 1px solid #5292E2 !important;
+}
+/**灰色背景色*/
+.bg-gray {
+    background-color: #FAFAFA !important;
+}
+
+/**白色背景色*/
+.bg-white {
+    background-color: #ffffff !important;
+}
+/**橙色背景色*/
+.bg-orange {
+    background-color: #ff9f22 !important;
+}
+
+/**绿色背景色*/
+.bg-green {
+    background-color: #47a519 !important;
+}
+
+/* 透明度*/
+.opacity-0 {
+    opacity: 0;
+}
+
+.opacity-7 {
+    opacity: 0.7;
+}
+
+.opacity-6 {
+    opacity: 0.6;
+}
+
+.opacity-8 {
+    opacity: 0.8;
+}
+/* 弹性布局*/
+.flex {
+    display: flex;
+}
+/* 隐藏*/
+.hide {
+    display: none;
+}
+/* 隐藏边框*/
+.border-none {
+    border: 0 !important;
+}
+
+/*默认手势*/
+.cursor-default {
+    cursor: default;
+}
+/*可点击手型*/
+.cursor-pointer {
+    cursor: pointer;
+}
+/*帮助手型*/
+.cursor-help {
+    cursor: help;
+}
+.nowrap {
+    white-space: nowrap;
+}

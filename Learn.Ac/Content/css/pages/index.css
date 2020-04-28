@@ -1,0 +1,179 @@
+﻿/* 页面头部 */
+.header {
+    width: 100%;
+    min-width: 1366px;
+    height: 36px;
+    line-height: 34px;
+    color: #ffffff;
+    background: #5292E2;
+}
+    /* 企业标识容器 */
+    .header .header-logo {
+        display: inline-block;
+        margin-left: 6px;
+    }
+    /* 企业logo */
+    .header .header-logo-img {
+        max-width: 300px;
+        max-height: 34px;
+        display: inline-block;
+    }
+    /* 企业名称 */
+    .header .header-logo-text {
+        max-width: 300px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    /* 头部功能 */
+    .header .header-action {
+        display: inline-block;
+        float: right;
+        margin: 0 6px;
+    }
+    /* 头部功能列表 */
+    .header .header-action-list {
+    }
+    /* 头部功能项 */
+    .header .header-action-listitem {
+        display: inline-block;
+        list-style: none;
+        padding-left: 15px;
+    }
+    /* 头部功能分割线 */
+    .header .v-split {
+        width: 1px;
+        border-left: 1px solid #ffffff;
+        height: 22px;
+        vertical-align: top;
+        display: inline-block;
+        opacity: 0.3;
+        margin-top: 5px;
+    }
+    /* 在线人数 */
+    .header .header-online {
+        color: #fff;
+    }
+/* 页面体 */
+.main {
+    width: 100%;
+    height: calc(100% - 66px);
+    min-width: 1366px;
+}
+/* 页面菜单容器 */
+.nav-menu {
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 13px;
+    width: 100%;
+}
+/* 系统选择 */
+.nav-menu .nav-menu-system {
+    color: #85888e;
+}
+/* 系统选择和菜单分割线 */
+.nav-menu .v-split {
+    width: 1px;
+    border-left: 1px solid #666;
+    height: 18px;
+    vertical-align: middle;
+    display: inline-block;
+    opacity: 0.2;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+/* 菜单 */
+.nav-menu .nav-menu-main {
+    display: flex;
+    height: 30px;
+}
+/* 菜单项(不区分级别) */
+.nav-menu .nav-menu-item {
+    list-style-type: none;
+    margin: 0 10px;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    margin-top: 3px;
+}
+/*菜单选中样式(不区分级别)*/
+.nav-menu .nav-menu-item:hover {
+    background: #A4A4B0;
+    color: #666;
+}
+/*2级 及其以后菜单选中样式*/
+.nav-menu-item > .nav-menu-main > .nav-menu-item:hover {
+    background: #f1f1f6;
+    color: #666;
+}
+/*菜单手型(不区分级别)*/
+.nav-menu .nav-menu__item--action {
+    cursor: pointer;
+    padding: 0 6px;
+    white-space:nowrap;
+}
+/*菜单字体颜色(不区分级别)*/
+.nav-menu-item:hover > .nav-menu__item--action {
+    color: #fff;
+}
+/*2级 及其以后菜单字体颜色*/
+.nav-menu-item > .nav-menu-main > .nav-menu-item:hover > .nav-menu__item--action {
+    color: #666;
+}
+/*2级 及其以后的菜单容器*/
+.nav-menu-item .nav-menu-main {
+    display: block;
+    height: auto;
+    min-width: 120px;
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    background: #fff;
+    border: 1px solid #CDCDD6;
+}
+    /*2级 及其以后的菜单项边距清空*/
+    .nav-menu-item .nav-menu-main .nav-menu-item {
+        margin: 0px;
+    }
+
+/*菜单容器hover定位(不区分级别)*/
+.nav-menu-item:hover > .nav-menu-main {
+    left: auto;
+}
+
+/*2级及其子容器定位*/
+.nav-menu .nav-menu-main .nav-menu-main .nav-menu-main {
+    margin-left: 100%;
+    top: 0;
+}
+
+/* 页面尾 */
+.footer {
+    height: 30px;
+    width: 100%;
+    min-width: 1366px;
+    background: #f1f1f6;
+    text-align: center;
+    border-top: 1px solid #e4e4ea;
+}
+
+    .footer .footer-icon {
+        line-height: 30px;
+        color: #2059a8;
+        margin-right: 6px;
+        font-size: 16px;
+    }
+
+    .footer .footer-text {
+        vertical-align: top;
+        line-height: 26px;
+        font-size: 12px;
+    }

@@ -1,0 +1,102 @@
+﻿/**
+* @name: tabs
+* @description: 页面内部的独立组件
+* @autor: zcc
+* @update: 2019-05-16
+*/
+.tabs {
+    width: 100%;
+    position: relative;
+}
+/*组件头部区域*/
+.tabs-head {
+    position: relative;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    zoom: 1;
+    border-top: 1px solid #e4e4ea;
+}
+/*头部区域伪类*/
+    .tabs-head:before,
+    .tabs-head:after {
+        content: "";
+        display: table;
+    }
+
+    .tabs-head:after {
+        clear: both;
+    }
+/*tabs项*/
+.tabs-tab {
+    position: relative;
+    display: block;
+    float: left;
+    list-style-type: none;
+    background: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+    /*tabs项选中效果*/
+    .tabs-tab.tabs-tab_state_active {
+        cursor: default;
+        height: 100%;
+    }
+/*tabs主题内容区域*/
+.tabs-body {
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+/*tabs主题内容区域子项*/
+.tabs-item {
+    position: relative;
+    display: none;
+    height: 100%;
+}
+
+    /*tabs主题内容区域子项选中*/
+    .tabs-item.tabs-item_state_active {
+        display: block;
+    }
+
+/***tabs皮肤***/
+.tabs-head {
+    background: #fafafa;
+}
+/*tabs子选项皮肤*/
+.tabs-tab {
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    margin: 3px 3px 0 0px !important;
+    border-bottom: none;
+    color: #666;
+    text-align: center;
+}
+
+    .tabs-tab:hover {
+        top: 0px;
+        margin-top: 0;
+        color: #2777db;
+    }
+    .tabs-tab a {
+        display: block;
+        padding: 0 14px;
+    }
+    /*tabs子选项选中皮肤*/
+    .tabs-tab.tabs-tab_state_active {
+        top: 0px;
+        background: #fff;
+        color: #2777db;
+        padding: 0 14px;
+        border-bottom: 2px solid #2777db !important;
+    }
+
+/*tabs主题内容区域皮肤*/
+.tabs-body {
+    background: #fff;
+}

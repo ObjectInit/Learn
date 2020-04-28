@@ -1,0 +1,212 @@
+﻿/**
+* @name: tabs
+* @description: 和菜单关联的tabs
+* @autor: zcc
+* @update: 2019-05-16
+*/
+/* 选项卡容器 */
+.tabs-header {
+    width: 100%;
+    height: 34px;
+    font-size: 0;
+    border-bottom: 1px solid #e4e4ea;
+    white-space: nowrap;
+    position: relative;
+    background: #f1f1f6;
+    padding-top: 4px;
+}
+
+/* 主体内容容器 */
+.tabs-main {
+    max-height: calc(100% - 64px);
+    overflow: auto;
+    height: 100%;
+}
+
+/* 选项卡容器 除开首页*/
+.other-page-container {
+    height: 100%;
+}
+
+/* iframe容器 */
+.iframe-container {
+    height: 100%;
+}
+
+/* 首页按钮 */
+.tab-fixed {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    border: 1px solid #e4e4ea;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 2px;
+    cursor: pointer;
+    margin-right: 7px;
+    margin-left: 7px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    padding-right: 15px;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .tab-fixed:hover {
+        color: #2777db;
+        background: #fafafa;
+        opacity: 1;
+    }
+
+/* 其他按钮 */
+.tab {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    border: 1px solid #e4e4ea;
+    height: 28px;
+    line-height: 28px;
+    margin-top: 2px;
+    cursor: pointer;
+    margin-right: 7px;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    padding-right: 15px;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+    .tab:hover {
+        color: #2777db;
+        background: #fafafa;
+        opacity: 1;
+    }
+/* 叉号图标 */
+.tab-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #666;
+    height: 30px;
+    width: 17px;
+    z-index: 998;
+}
+
+    .tab-close:hover {
+        color: #2777db;
+        opacity: 1;
+    }
+
+/* 选中项 */
+.tabs-selected {
+    color: #2777db;
+    border-bottom: none;
+    background: #FAFAFA;
+}
+
+/* tabs右击操作项容器 */
+.tab-operates {
+    position: fixed;
+    width: 85px;
+    background: #fff;
+    z-index: 999;
+}
+
+/* tabs操作项  包含（关闭当前、关闭所有等）*/
+.tab-operates-item {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 7px;
+    font-size: 12px;
+    cursor: pointer;
+}
+    .tab-operates-item:hover {
+        background: #E0ECFF;
+        color: #2777db;
+    }
+
+/* tabs操作按钮 */
+.tab-button {
+    position: absolute;
+    z-index: 9999999;
+    width: 24px;
+    height: 30px;
+    background: #E0ECFF;
+    cursor: pointer;
+    display: none;
+    line-height: 30px;
+    text-align: center;
+    color: #5292E2;
+    opacity: 0.5;
+}
+
+    .tab-button:hover {
+        opacity: 1;
+    }
+
+/* tabs操作按钮 */
+.tab-left-button {
+    left: 0;
+}
+
+/* tabs操作按钮 */
+.tab-right-button {
+    right: 0;
+}
+
+/* 显示、隐藏tabs操作按钮 */
+.tab-dropdown-button {
+    position: absolute;
+    z-index: 9999999;
+    width: 24px;
+    height: 30px;
+    background: #E0ECFF;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: #5292E2;
+    opacity: 0.5;
+    right: 0;
+    display: none;
+}
+
+    .tab-dropdown-button:hover {
+        opacity: 1;
+    }
+
+/* tabs右侧操作 展开下拉项 */
+.tab-list {
+    position: absolute;
+    z-index: 9999999;
+    max-height: 700px;
+    width: 135px;
+    color: #666;
+    right: 0;
+    background: #f1f1f6;
+    border: 1px solid #d8d8d8;
+    top: 95px;
+    display: none;
+    cursor: pointer;
+}
+
+/* tabs右侧操作 下拉项 子项 */
+.tab-list-item {
+    height: 28px;
+    padding-left: 7px;
+    border-bottom: 1px solid #e4e4ea;
+    line-height: 28px;
+}
+
+    .tab-list-item:hover {
+        background: #fff;
+        color: #5292E2;
+    }
+.tabs-shadow {
+    box-shadow: 1px 0px 2px #5292e2;
+}

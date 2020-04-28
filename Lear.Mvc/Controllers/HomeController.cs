@@ -11,6 +11,9 @@ namespace Lear.Mvc.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            string name = Request.QueryString["name"];
+            string age = Request.QueryString["age"];
+            ViewBag.UrlText = "acanalytype=z2&subunit=z0.总部&analysdate=2020-04-22&subrec=lwh001.lwh科目对账&summaryitem=account.科目&t0=&t10=&t11=&billtype=zsk&cd=0&account=lwh001.lwh对账收款单       &edate=2020-03-22:2020-04-20,2020-02-21:2020-03-21";
             Session["u"] = "ly";
             return View();
 

@@ -1,0 +1,70 @@
+﻿/**
+* @name: 多态框
+* @修改人: zcc
+* @update: 2019-05-17
+*/
+
+/*状态checkbox*/
+.checkbox-container {
+    line-height: 22px;
+    margin-top: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*状态框基本样式*/
+.checkbox-state {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 2px;
+    border: 1px solid #d8d8d8;
+    position: relative;
+    cursor: pointer;
+}
+/*勾符号*/
+.checkbox-hook:after {
+    content: ' ';
+    position: absolute;
+    left: 4px;
+    width: 3px;
+    top: 1px;
+    height: 6px;
+    border: 0;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+}
+
+/*叉符号*/
+.checkbox-fork:before, .checkbox-fork:after {
+    content: '';
+    height: 1px;
+    width: 9px;
+    display: block;
+    background: #666;
+    border-radius: 7px;
+    position: absolute;
+    top: 6px;
+    left: 1.5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+.checkbox-fork:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
