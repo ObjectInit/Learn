@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.CodeUI", "Learn.CodeU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Ac", "Learn.Ac\Learn.Ac.csproj", "{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Html", "Learn.Html\Learn.Html.csproj", "{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,12 +59,16 @@ Global
 		{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F3284F7-17F0-4BB8-8122-6280DABE4B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {786CB82B-6A9C-4326-8788-6F6AA0A082D8}
 		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
+		SolutionGuid = {786CB82B-6A9C-4326-8788-6F6AA0A082D8}
 	EndGlobalSection
 EndGlobal
