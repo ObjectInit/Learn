@@ -34,7 +34,7 @@ namespace Learn.Console.Temp
     }
 
 
-    public   class B
+    public class B
     {
         public string Name { get; set; }
 
@@ -57,10 +57,11 @@ namespace Learn.Console.Temp
     {
         public void Main(string[] args)
         {
-            A a = new A();
+            int[] a = new int[] { 1, 2, 3 };
+            List<int> temp = a.Where(x => x == 1 || x != 2).Where(x => x == 2).ToList();
             System.Console.ReadLine();
         }
     }
 
-    
+
 }

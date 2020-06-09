@@ -8,12 +8,13 @@
     输入年龄: <input type="text" id="myage" name="age" /><br>
     <input type="submit" value="提交" />
     <input type="button" value="ajax提交" onclick="do1()" />
-    
-    <a href="/home/index?name=刘文汉">链接</a>
+
+    <a href="/home/index?name=刘文汉">链接1</a>
+    <a href="@ViewBag.UrlText">链接2</a>
 </form>
 <script>
     function do1() {
-        $.post("/home/index", { name: encodeURIComponent($("#myname").val()), age: $("myage").val() }, function () {
+        $.post("/home/index", { name: encodeURIComponent($("#myname").val()), age: $("#myage").val() }, function () {
 
         })
     }

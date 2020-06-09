@@ -240,11 +240,16 @@
     <Content Include="Content\SJpfs.css" />
     <Content Include="Content\SJpfs.js" />
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AcBalancy2Controller.cs" />
+    <Compile Include="Controllers\LAcBalancyController.cs" />
     <Compile Include="Controllers\LDemoFormListController.cs" />
+    <Compile Include="Controllers\TestFormController.cs" />
     <Compile Include="EzFormList.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

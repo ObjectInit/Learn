@@ -15,6 +15,8 @@ namespace Learn.Ac
         /// </summary>
         private SData m_bizDefine;
 
+        private SData m_bizFields;
+
         private List<FieldDefine> m_queryFieldNames;
 
         /// <summary>
@@ -39,6 +41,10 @@ namespace Learn.Ac
 
             m_bizDefine = WebApiClient.BizDefine(apiEntity);
 
+            if (m_bizDefine != null)
+            {
+                m_bizFields = m_bizDefine["fields"] as SData;
+            }
             //页面title赋值
             RunContext.Title = pageTitle;
         }
@@ -52,11 +58,24 @@ namespace Learn.Ac
             RunContext.UserButtom = new List<ButtomDefine>();
         }
 
-
-
+        protected override void GetDataAfter()
+        {
+            RunContext.Response.ClientAddScript("window.top.layer.close(window.top.layer.index)");
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="disPlayName"></param>
+        /// <returns></returns>
         public EzFormList ContainBizField(string name,string disPlayName="")
         {
+            
+            return this;
+        }
 
+        public EzFormList ContainAgreedField(string name,string disPlayName)
+        {
             return this;
         }
     }
