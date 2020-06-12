@@ -73,14 +73,20 @@
     <Content Include="images\node.png" />
     <Content Include="images\vline.png" />
     <Content Include="Index.html" />
-    <Content Include="Temp.html" />
+    <Content Include="muchansy\index.html" />
+    <Content Include="muchansy\jquery.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css-Selector.html" />
+    <Content Include="Css.Selector" />
+    <Content Include="muchansy\jb-1-1.json" />
+    <Content Include="muchansy\jb-1-2.json" />
+    <Content Include="muchansy\jb-2-1.json" />
+    <Content Include="muchansy\jb-2-2.json" />
+    <Content Include="muchansy\jd.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
