@@ -4,6 +4,9 @@
     <meta charset="utf-8" />
     <title></title>
     <style>
+        tr {
+            background-color: blue;
+        }
         ul.tree, ul.tree ul {
             list-style-type: none;
             background: url(images/vline.png) repeat-y;
@@ -11,28 +14,28 @@
             padding: 0;
         }
 
-            ul.tree ul {
-                margin-left: 10px;
-            }
+        ul.tree ul {
+            margin-left: 10px;
+        }
 
-            ul.tree li {
-                margin: 0;
-                padding: 0 12px;
-                line-height: 20px;
-                background: url(images/node.png) no-repeat;
-            }
+        ul.tree li {
+            margin: 0;
+            padding: 0 12px;
+            line-height: 20px;
+            background: url(images/node.png) no-repeat;
+        }
 
-                ul.tree li:last-child {
-                    background: #fff url(images/lastnode.png) no-repeat;
-                }
+        ul.tree li:last-child {
+            background: #fff url(images/lastnode.png) no-repeat;
+        }
 
         ul li {
             color: #369
         }
 
-            ul li li {
-                color: black;
-            }
+        ul li li {
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -47,6 +50,7 @@
                 <li>
                     <a target="_blank" href="https://es6.ruanyifeng.com/">ES6(阮一峰)</a>
                 </li>
+                <li><a target="_blank" href="https://www.ruanyifeng.com/blog/2019/11/css-position.html">CSS定位(阮一峰)</a> </li>
             </ul>
         </li>
         <li>
@@ -63,7 +67,3 @@
     </ul>
 </body>
 </html>
-<script>
-    var mycanvas = document.getElementById("mycanvas");
-
-</script>

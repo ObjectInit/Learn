@@ -73,13 +73,14 @@
     <Content Include="images\node.png" />
     <Content Include="images\vline.png" />
     <Content Include="Index.html" />
+    <Content Include="Temp.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Css.Selector" />
+    <Content Include="Css-Selector.html" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
