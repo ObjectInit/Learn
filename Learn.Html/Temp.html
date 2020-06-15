@@ -3,18 +3,19 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <style>
-        ul li {
-            list-style: none;
-            position: relative;
-        }
-    </style>
 </head>
 <body>
-    <ul>
-        <li>
-            第一级
-        </li>
-    </ul>
 </body>
 </html>
+<script>
+    function say() {
+         this.a = 1;
+        console.log(a);
+    }
+
+    var p = {
+        han: say
+    }
+    p.han();
+    //say();
+</script>

@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>异步测试</title>
+</head>
+<body>
+    <input type="button" value="异步请求" onclick="do1()" />
+</body>
+</html>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+<script>
+    function do1() {
+        var count = 100;
+        for (var i = 0; i < count; i++) {
+            this.i = i;
+            $.get("/home/ntdo", { i: i },
+                function (d) {
+                    console.log(i);
+                });
+        }
+    }
+</script>

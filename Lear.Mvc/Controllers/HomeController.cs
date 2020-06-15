@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading;
 using System.Web;
 using System.Web.Mvc;
 
@@ -21,10 +22,10 @@ namespace Lear.Mvc.Controllers
 
         public ActionResult MySession()
         {
-            Session.Clear(); 
+            Session.Clear();
             return View();
         }
-        
+
         [ValidateInput(false)]
         public ActionResult Do1(string name, int age)
         {
@@ -36,6 +37,18 @@ namespace Lear.Mvc.Controllers
         {
             var t = Session["D"];
             return null;
+        }
+
+        public ActionResult NtDo(int i)
+        {
+            var t = new Random().Next(5000);
+            Thread.Sleep(t);
+            return Content(i.ToString());
+        }
+
+        public ActionResult AsynXTest()
+        {
+            return View();
         }
     }
 }
