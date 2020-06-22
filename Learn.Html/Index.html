@@ -46,16 +46,16 @@
             基础
             <ul>
                 <li>
-                    <a target="_blank" href="https://developer.mozilla.org/zh-CN/">Mdn Web文档</a>
+                    <a target="_blank" href="https://developer.mozilla.org/zh-CN/">【前端】Mdn Web文档</a>
+                </li> 
+                <li>
+                    <a target="_blank" href="https://javascript.ruanyifeng.com/"> --【JavaScript】JavaScript 标准参考教程（阮一峰）</a>
                 </li>
                 <li>
-                    <a target="_blank" href="https://javascript.ruanyifeng.com/">JavaScript 标准参考教程（阮一峰）</a>
+                    <a target="_blank" href="https://es6.ruanyifeng.com/"> --【ES6】(阮一峰)</a>
                 </li>
-                <li>
-                    <a target="_blank" href="https://es6.ruanyifeng.com/">ES6(阮一峰)</a>
-                </li>
-                <li><a target="_blank" href="https://www.ruanyifeng.com/blog/2019/11/css-position.html">CSS定位(阮一峰)</a> </li>
-            
+                <li><a target="_blank" href="https://www.ruanyifeng.com/blog/2019/11/css-position.html"> --【CSS】定位(阮一峰)</a> </li>
+
             </ul>
         </li>
         <li>
@@ -70,7 +70,7 @@
             </ul>
         </li>
         <li>
-            帮助理解
+            对比选择
             <ul>
                 <li>
                     <a target="_blank" href="https://blog.csdn.net/laizixingxingdewo/article/details/78913067">开发移动应用程序的三种选择：原生、HTML5或混合</a>
@@ -96,6 +96,61 @@
 3）如果想构建基于RESTful的HTTP服务，可以选择Web API。
 
 4）如果服务需要被各种客户端（特别是移动客户端）调用，现在Web API。" target="_blank" href="https://www.cnblogs.com/dotnet261010/p/8586424.html">WCF 和 Web API 取舍</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            投机取巧
+            <ul>
+                <li>
+                    <a target="_blank" title="// 方法一
+(typeof window !== 'undefined'
+   ? window
+   : (typeof process === 'object' &&
+      typeof require === 'function' &&
+      typeof global === 'object')
+     ? global
+     : this);
+
+// 方法二
+var getGlobal = function () {
+  if (typeof self !== 'undefined') { return self; }
+  if (typeof window !== 'undefined') { return window; }
+  if (typeof global !== 'undefined') { return global; }
+  throw new Error('unable to locate global object');
+};" href="https://es6.ruanyifeng.com/#docs/let#globalThis-%E5%AF%B9%E8%B1%A1">【ES6】如何在任何时候取顶层对象（阮一峰）</a>
+                </li>
+                <li>
+                    <a target="_blank" title="var constantize = (obj) =>
+                        {
+                        Object.freeze(obj);
+                        Object.keys(obj).forEach( (key, i) => {
+                        if ( typeof obj[key] === 'object' ) {
+                        constantize( obj[key] );
+                        }
+                        });
+                        };" href="https://es6.ruanyifeng.com/#docs/let#const-%E5%91%BD%E4%BB%A4">【ES6】如何将对象彻底冻结(阮一峰)
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://es6.ruanyifeng.com/#docs/string#%E5%AE%9E%E4%BE%8B%EF%BC%9A%E6%A8%A1%E6%9D%BF%E7%BC%96%E8%AF%91">【ES6】实例：模板编译（阮一峰）</a>
+                </li>
+                <li>
+                    <a target="_blank" title="function SaferHTML(templateData) {
+  let s = templateData[0];
+  for (let i = 1; i < arguments.length; i++) {
+    let arg = String(arguments[i]);
+
+    // Escape special characters in the substitution.
+    s += arg.replace(/&/g, '&amp;')
+                       .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;');
+
+                    // Don't escape special characters in the template.
+                    s += templateData[i];
+                    }
+                    return s;
+                    }" href="https://es6.ruanyifeng.com/#docs/string#%E6%A0%87%E7%AD%BE%E6%A8%A1%E6%9D%BF">【ES6】实例：标签模板,防止用户恶意代码（阮一峰）</a>
                 </li>
             </ul>
         </li>
