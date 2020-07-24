@@ -1,0 +1,232 @@
+﻿----------------------------------------------------------
+* 多语言资源
+----------------------------------------------------------
+注意: 不符合格式将忽略 格式如下:
+----------------------------------------------------------
+无此用户.|User not find.
+无此用户或密码错误.|User not find or password error.
+ 不能为空.| cannot be empty!
+代码不能为空!|The code cannot be empty!
+编号不能为空.|The voucher number cannot be empty.
+名称不能为空!|The name cannot be empty!
+预设代码必须以z开头!|The preset code must start with z!
+代码不能以z开头!|The code cannot start with z!
+编码重复!|Code duplication.
+凭证单据已被删除!|Voucher has been deleted !
+数据已被删除.|Voucher has been deleted !
+定义错误.不能启用.|Definition error.Cannot be enabled.
+启用后不能修改定义.|The definition cannot be modified after it is enabled.
+未定义或未启用.|not defined or enabled.
+凭证单据无分录!|Voucher documents are not entries !
+科目 {0} 已经停用 !|Account {0} deactivated !
+借贷不平衡，借方合计为：{0}，贷方合计为：{1}，差额为：{2}|Lending imbalance, debit total is: {0}, credit total is: {1}, the difference is: {2}
+分录|Journal entries
+未指定科目.|No account is specified.
+未指定 {0}.|{0} not specified.
+不能同时输入借贷方金额.|Lenders cannot enter the borrower amount at the same time.
+未指定币种.|No currency specified.
+未输入原币金额及汇率.|The original currency amount and exchange rate were not entered.
+未输入数量及单价.|Quantity and unit price are not entered.
+未输入借贷金额.|No loan amount entered.
+参数 {0} 设置失败!|Parameter {0} setting failed!
+附件张数不能为负数.|The number of attachment sheets cannot be negative.
+副本|Copy
+复制|Copy
+冲销|Reversal
+凭证暂不允许记账.|Vouchers are not allowed to be booked.
+-----------------------------------------------------------------------------
+*龚绍平 公共资源
+ 不能为空| cannot be empty
+ 不存在| not exist
+ 已存在| exist already
+重复| duplication
+最多{0}个字符| has a maximum of {0} characters
+个字符| characters
+所选记录已被{0}关联，不允许删除|The selected record has been associated with {0} and is not allowed to be deleted
+。| .
+!| !
+，| ,
+？|?
+……|……
+代码|The code
+用户|User
+名称|Name
+备注|Remark
+业务数据库版本实体不允许操作|Forbidden
+
+* 张莉  自动凭证结转
+不能同时为空| cannot be empty at the same time
+为大于0的数值| is greater than 0
+同一转出科目性质的转出余额比例不等于100%，不允许结转|Transfer balances of the nature of the same transfer account are not equal to 100% and carry-over is not allowed
+同一转出科目的转出余额比例不等于100%，不允许结转|Transfer balances for the same transfer account are not equal to 100% and carry-over is not allowed
+核算单位结转失败|Accounting unit carry-over failure
+转出科目没有需要结转的余额数据|No carry-over balance data required for transfer account
+请先定义需要结转的转出科目|Please define the transfer account that needs to be carried forward first
+
+* 张莉 勾对
+核算单位|Accounting unit
+科目对账|Accounting reconciliation
+勾对规则|Check rules
+科目|Account
+无未勾对的数据|No data not checked
+核算单位不一致，不允许勾对|Inconsistent accounting units are not allowed to tick
+科目对账没设置科目|Account reconciliation has not account
+科目不在科目对账中|Account not included in the account reconciliation
+通过付款单产生的勾对记录不能撤销|No cancellation of the reconciliation record resulting from payment orders
+通过收款单产生的勾对记录不能撤销|No cancellation of the record resulting from the receipt
+所选记录不存在|Selected records do not exist
+所选记录未记账，不允许勾对|Selected records are not accounted for and are not allowed to be checked
+所选记录科目不属于对账科目，不允许勾对|The selected record subject is not a reconciliation subject and no reconciliation is allowed
+所选记录勾对金额大于未勾对金额，不允许勾对|The correct amount of the selected record is greater than the uncorrected amount, and is not allowed
+所选记录不符合对账规则，不允许勾对|Selected records do not comply with reconciliation rules and do not allow reconciliations
+所选记录核算单位不同，不允许勾对|Different accounting units for selected records are not allowed to check
+所选记录借贷不平衡，不允许勾对|The selected records are not in balance and are not allowed to be checked
+不能为0| cannot be 0
+为数值| is value
+从>=|>=
+到<|<
+为大于等于0的整数| is an integer greater than or equal to 0
+
+* 张莉  标准DisplayName
+类型|Type
+日期类型|Date type
+勾对状态|Check status
+收付款单头|Receipt and payment head
+勾对类型|Check type
+勾对人|Check person
+勾对金额|Check amount
+批次|Batch
+勾对日期|Check date
+借贷方向|CD
+自动凭证结转|Automatic voucher carry-over
+转出科目|Transfer account
+转入科目|Transfer to account
+结转余额比例|Percentage of carry-over balances
+转出科目性质|Transfer account nature
+预算方案|Budget program
+类别|Genre
+
+* 曾倩倩 收/付款
+收款头|Receipt
+收款体|ReceiptD
+付款头|Pay
+付款体|PayD
+所选记录已审，不允许删除|The selected record has been reviewed and is not allowed to be deleted
+所选记录待审，不允许删除|The selected records are pending review and are not allowed to be deleted
+所选记录已审|The selected record has been reviewed
+对方科目|Opposite accounts
+凭证类型|Voucher Type
+核算期|Period
+摘要|Abstract
+提审金额|Remand amount
+实付金额|Act Payment amount
+实收金额|Act Receivable amount
+业务参考|Business reference
+业务日期|Business date
+到期日期|Due date
+无收款记录|No receipt record
+无付款记录|No payment record
+收款凭证分录|Receipt voucher entry
+付款凭证分录|Payment voucher entry
+分析项|The analysis terms
+不相同| are different
+科目已禁用，不允许使用|The subject is disabled. Use is not allowed
+数量|Quantity
+币种|Currency
+汇率|Exchange rate
+未审核| not audited
+不是实际数据| are not actual data
+收款凭证分录的金额在贷方不能收款|The amount recorded in the voucher entry cannot be collected at the credit
+付款凭证分录的金额在借方不能付款|The amount of the payment voucher entry cannot be paid by the borrower
+收款凭证分录的科目不属于对账科目|The course of entry of receipt voucher does not belong to reconciliation course
+付款凭证分录的科目不属于对账科目|The account of payment voucher entry does not belong to reconciliation account
+收款凭证分录的科目不属于收款科目|The account of collection voucher entry does not belong to collection account
+付款凭证分录的科目不属于付款科目|The account of payment voucher entry does not belong to the payment account
+
+* 曾倩倩 银行对账
+未初始化银行对账，不允许新增|Bank reconciliation is not initialized, adding is not allowed
+未设置银行对账，不允许新增|Bank reconciliation is not set and cannot be added
+编号|Code
+借贷金额不能都为空|Loan amount cannot be empty
+借贷金额不能都有值|Debit and credit amount cannot all have value
+贷方金额|Credit amount
+借方金额|Debit amount
+金额|Amount
+所选记录小于当前核算期，不允许删除|The selected record is less than the current accounting period and cannot be deleted
+银行账户|Bank
+银行科目|BankAccount
+已初始化|Already initialized
+期初余额|Opening balance
+核算期不能小于当前核算期|Accounting period cannot be less than the current accounting period
+格式不正确|incorrect format
+核算期不能大于每年最大核算期数|Accounting period cannot be greater than the maximum number of accounting periods per year
+银行对账单|AcBankVD
+银行对账单头|AcBankVh
+
+* 李琳 应收应付流程
+所选记录小于当前核算期，不允许反记| The selected record is smaller than the current accounting period, and reverse recording is not allowed
+付款凭证分录不存在|Payment voucher entry does not exist
+收款凭证分录不存在|Receipt voucher entry does not exist
+所选记录无付款记录|The selected record has no payment record
+所选记录无收款记录|The selected record has no collection record
+分析项不相同|The analysis terms are different
+对方科目金额和实付金额不相等|The amount of the other party's account is not equal to the amount of act payment
+对方科目金额和实收金额不相等|The amount of the other party's subject is not equal to the amount act received
+核算单位不相同|The accounting units are different
+付款凭证分录不存在|Payment voucher entry does not exist
+收款凭证分录不存在|Receipt voucher entry does not exist
+收款凭证分录未审核|Receipt voucher entry not reviewed
+付款凭证分录未审核|Payment voucher entry not reviewed
+科目不存在|Subject does not exist
+实收金额不能为0|Receipt amount cannot be 0
+实付金额不能为0|Payment amount cannot be 0
+实付金额不能大于【贷方金额 - 已勾对金额 - 提审金额】|The amount of act payment shall not be greater than the amount of credit - the amount of checked - the amount to be examined
+实收金额不能大于【借方金额 - 已勾对金额 - 提审金额】|The amount act received shall not be greater than [debit amount - checked amount - pending amount]
+职务|Position
+附件|Position
+
+* 李琳 期末结转
+存在未记账的凭证，不允许结转| Does not have the proof of charge to an account, does not allow to carry forward
+存在未记账的收款单，不允许结转|There is no bookkeeping receipts, not allowed to carry forward
+存在未记账的付款单，不允许结转|There is an unrecorded payment note, which is not allowed to be carried forward
+数据不平衡，不允许结转|Data imbalance, does not allow to carry forward
+数据不平衡|Data imbalance
+数据平衡|The data balance
+期初余额不平衡|the opening balance is unbalanced
+发生额不平衡| amount imbalance
+期末余额不平衡|the ending balance is unbalanced
+请检查试算平衡表|Please check the trial balance
+当前核算期已为系统初始核算期|The current accounting period has been the initial accounting period of the system
+
+* 曾倩倩 科目对账、科目对账定义
+代码|Code
+名称|Name
+备注|Abstract
+单据类型|BillType
+是否反向|IsReverse
+科目已加入该科目对账|The subject has been included in the reconciliation of the subject
+原科目已被删除,不应被修改|The original subject has been deleted and should not be modified
+科目已对账，不允许删除|The accounts have been checked and are not allowed to be deleted
+科目已对账，不允许修改|The accounts have been checked and are not allowed to be modified
+科目对账与科目关系|Subject reconciliation and subject relationship
+
+* 张莉 银行对账
+联系人|Contact
+电话|Tel
+传真|Fax
+地址|Address
+银行对账|Bank reconciliations
+银行科目未启用银行账户辅助项，不允许重复新增|Bank account support items are not used in bank accounts and repeat additions are not allowed
+银行账户已关联银行科目|Bank bank accounts
+未设置银行对账，不允许勾对|No bank reconciliations set up, no checks allowed
+银行对账不存在|No bank reconciliation
+银行科目不存在|Bank account does not exist
+无勾对的数据|Unchecked data
+无勾对的银行对账单数据|Unchecked bank statement data
+无勾对的企业银行账数据|Unchecked enterprise bank account data
+所选记录核算单位不相同，不允许勾对|The selected accounting units are not the same and are not allowed to tick
+所选记录银行科目不相同，不允许勾对|Cross check is not allowed for selected records
+所选记录银行账户不相同，不允许勾对|The bank account for the selected records is not the same
+所选记录不是实际数据，不允许勾对|Selected records are not actual data and are not allowed to tick
+企业银行账|Enterprise bank accounts
+银行对账已导入对账单，不允许删除|Bank reconciliations have been imported into statements and are not allowed to be deleted

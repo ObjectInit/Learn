@@ -57,8 +57,13 @@ namespace Learn.Console.Temp
     {
         public void Main(string[] args)
         {
-            int[] a = new int[] { 1, 2, 3 };
-            List<int> temp = a.Where(x => x == 1 || x != 2).Where(x => x == 2).ToList();
+            List<int> a = new List<int> { 1, 2, 3 };
+            var currentIndex = a.IndexOf(2);
+            var t= a.Take(currentIndex+1);
+            var t2 = a.Skip(currentIndex);
+            var index1 = a.IndexOf(1);
+            var t3 = a.Take(index1+1);
+            var t4 = a.Skip(index1);
             System.Console.ReadLine();
         }
     }

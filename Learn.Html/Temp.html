@@ -5,12 +5,13 @@
     <title></title>
 </head>
 <body>
-<div id="mydiv">
-    
-</div>
+    <div id="mydiv">
+
+    </div>
 </body>
 </html>
 <script>
-    let s = "Hello \n Word";
-    console.log(1);
+    let s = "Hello \n Word<script></script" + ">";
+    document.querySelector("#mydiv").innerHTML = s;
+
 </script>

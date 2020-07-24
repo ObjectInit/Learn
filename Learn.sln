@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Ac", "Learn.Ac\Learn.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Learn.Html", "Learn.Html\Learn.Html.csproj", "{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SJ.BackEnd.HostWebApi", "SJ.BackEnd.HostWebApi\SJ.BackEnd.HostWebApi.vbproj", "{82871316-42CE-482B-B320-CC706298376A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SJ.BackEnd.Biz.AC", "SJ.BackEnd.Biz.AC\SJ.BackEnd.Biz.AC.csproj", "{6ABEB62B-CA44-49AA-AD6D-EF87A500A2F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,12 +67,20 @@ Global
 		{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C708BCE-1CCA-4497-9101-E9AA72A88BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82871316-42CE-482B-B320-CC706298376A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82871316-42CE-482B-B320-CC706298376A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82871316-42CE-482B-B320-CC706298376A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82871316-42CE-482B-B320-CC706298376A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ABEB62B-CA44-49AA-AD6D-EF87A500A2F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ABEB62B-CA44-49AA-AD6D-EF87A500A2F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ABEB62B-CA44-49AA-AD6D-EF87A500A2F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ABEB62B-CA44-49AA-AD6D-EF87A500A2F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
 		SolutionGuid = {786CB82B-6A9C-4326-8788-6F6AA0A082D8}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.PolicyInjection.6.0.1304.0\lib\NET45
 	EndGlobalSection
 EndGlobal
