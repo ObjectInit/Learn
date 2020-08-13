@@ -57,13 +57,7 @@ namespace Learn.Console.Temp
     {
         public void Main(string[] args)
         {
-            List<int> a = new List<int> { 1, 2, 3 };
-            var currentIndex = a.IndexOf(2);
-            var t= a.Take(currentIndex+1);
-            var t2 = a.Skip(currentIndex);
-            var index1 = a.IndexOf(1);
-            var t3 = a.Take(index1+1);
-            var t4 = a.Skip(index1);
+            var d = 1 / 0;
             System.Console.ReadLine();
         }
     }
