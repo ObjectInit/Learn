@@ -47,7 +47,8 @@ namespace Lear.Mvc.Controllers
         {
             var t = Session["D"];
             var d = TempData["a"];
-            return null;
+            Thread.Sleep(2000);
+            return Content("do");
         }
 
         public ActionResult NtDo(int i)

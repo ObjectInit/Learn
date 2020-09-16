@@ -19,8 +19,25 @@
     //    })
     //}
     function do2() {
-        $.post("/Home/Do2", function () {
-
-        })
+        var url = '/Home/Do2';
+        var f = false;
+        var c = window.setInterval(function () {
+            $.ajax({
+                url: url,
+                type: 'POST',
+                cache: false,
+                asnyc: false,
+                data: "",
+                success: function (result) {
+                    if (!f) {
+                        alert(1);
+                       
+                    }
+                    f = true;
+                    window.clearInterval(c);
+                   
+                }
+            });
+        }, 1000)
     }
 </script>

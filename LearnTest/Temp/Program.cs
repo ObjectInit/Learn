@@ -57,7 +57,9 @@ namespace Learn.Console.Temp
     {
         public void Main(string[] args)
         {
-            var d = 1 / 0;
+            var ds = DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss fff");
+            var d2= DateTime.ParseExact(ds, "yyyy-MM-dd hh:mm:ss fff", null);
+            var d = Convert.ToDateTime(ds);
             System.Console.ReadLine();
         }
     }
